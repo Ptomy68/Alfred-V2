@@ -1,0 +1,1521 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Coach Anglais</title>
+<link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjoiQ29hY2ggQW5nbGFpcyIsInNob3J0X25hbWUiOiJDb2FjaCBBbmdsYWlzIiwic3RhcnRfdXJsIjoiLi8iLCJkaXNwbGF5Ijoic3RhbmRhbG9uZSIsImJhY2tncm91bmRfY29sb3IiOiIjRUZFOEY0IiwidGhlbWVfY29sb3IiOiIjM0IyMzUwIiwibGFuZyI6ImZyIn0=">
+<meta name="theme-color" content="#3B2350">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Coach Anglais">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#EFE8F4;
+    --surface:#FFFFFF;
+    --ink:#2E1B3D;
+    --raspberry:#E0577A;
+    --gold:#C9982F;
+    --teal:#3E7C89;
+    --violet:#7A4FB5;
+    --sky:#3B6FA0;
+    --success:#3F8361;
+    --error:#B33A3A;
+    --muted:#6E5F78;
+    --r-lg:22px;
+    --r-md:14px;
+    --r-sm:9px;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Manrope',sans-serif;
+    min-height:100vh;
+    padding:20px 14px 60px;
+  }
+  .wrap{max-width:640px;margin:0 auto;}
+
+  .hero{background:linear-gradient(135deg,#3B2350,#C9527A);border-radius:var(--r-lg);padding:24px 22px;color:#F8F0F4;}
+  .hero h1{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;font-size:1.9rem;margin:0 0 5px;line-height:1.1;}
+  .hero .sub{font-size:0.88rem;opacity:0.85;}
+  .hero-stats{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap;}
+  .hero-chip{background:rgba(255,255,255,0.16);border:1px solid rgba(255,255,255,0.28);border-radius:20px;padding:6px 12px;font-size:0.76rem;font-weight:700;}
+
+  .maintabs{display:flex;gap:8px;margin:18px 0 16px;}
+  .maintab{flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;border:1.5px solid rgba(46,27,61,0.16);background:var(--surface);color:var(--ink);padding:10px 6px;border-radius:var(--r-md);font-weight:700;font-size:0.76rem;cursor:pointer;}
+  .maintab svg{width:19px;height:19px;}
+  .maintab.active{background:var(--ink);color:var(--paper);border-color:var(--ink);}
+
+  .card{background:var(--surface);border:1px solid rgba(46,27,61,0.12);border-radius:var(--r-lg);padding:22px;}
+  .card h2{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;font-size:1.45rem;margin:0 0 6px;color:var(--ink);}
+  .card .sub{color:var(--muted);font-size:0.88rem;line-height:1.5;margin-bottom:16px;}
+  .back-btn{background:none;border:none;color:var(--muted);font-size:0.85rem;cursor:pointer;padding:0 0 14px;text-decoration:underline;display:block;}
+
+  /* Cours */
+  .priority-badge{display:inline-block;background:rgba(179,58,58,0.12);color:var(--error);font-size:0.72rem;font-weight:700;padding:3px 9px;border-radius:10px;margin-bottom:10px;}
+  .lesson-list{display:flex;flex-direction:column;gap:10px;}
+  .lesson-btn{text-align:left;padding:14px 16px;border:1.5px solid rgba(46,27,61,0.16);border-radius:var(--r-md);background:transparent;font-weight:700;font-size:0.95rem;color:var(--ink);cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:10px;}
+  .lesson-btn .cat-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0;}
+  .lesson-btn .mastered-tag{font-size:0.68rem;color:var(--success);font-weight:700;}
+  .lesson-body{font-size:0.93rem;line-height:1.6;}
+  .lesson-body h3{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;font-size:1.1rem;margin:16px 0 6px;}
+  .lesson-body ul{padding-left:20px;margin:8px 0;}
+  .lesson-body li{margin-bottom:6px;}
+  .lesson-body .ex{color:var(--muted);font-style:italic;}
+  .mastered-toggle{background:none;border:none;color:var(--muted);font-size:0.82rem;text-decoration:underline;cursor:pointer;padding:12px 0 0;display:block;}
+
+  /* Mode select */
+  .mode-row{display:flex;align-items:flex-start;gap:14px;padding:15px 2px;border-bottom:1px solid rgba(46,27,61,0.1);cursor:pointer;background:none;border-left:none;border-right:none;border-top:none;width:100%;text-align:left;font-family:'Manrope',sans-serif;}
+  .mode-row:last-child{border-bottom:none;}
+  .mode-icon{width:40px;height:40px;border-radius:11px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+  .mode-icon svg{width:20px;height:20px;}
+  .mode-info h3{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;font-size:1.05rem;margin:0 0 3px;color:var(--ink);}
+  .mode-info p{font-size:0.83rem;color:var(--muted);margin:0;line-height:1.4;}
+
+  /* QCM */
+  .start-box{text-align:center;padding:16px 0;}
+  .start-btn{background:var(--ink);color:var(--paper);border:none;padding:13px 26px;border-radius:24px;font-weight:700;font-size:0.95rem;cursor:pointer;}
+  .qcount{font-size:0.78rem;color:var(--muted);margin-bottom:6px;}
+  .prompt{font-size:1.03rem;line-height:1.5;margin-bottom:16px;}
+  .prompt em{font-style:normal;border-bottom:2px solid var(--gold);padding:0 2px;}
+  .options{display:flex;flex-direction:column;gap:9px;margin-bottom:12px;}
+  .opt{text-align:left;padding:11px 14px;border:1.5px solid rgba(46,27,61,0.2);border-radius:var(--r-sm);background:transparent;font-family:'Manrope',sans-serif;font-size:0.94rem;color:var(--ink);cursor:pointer;}
+  .opt.correct{border-color:var(--success);background:rgba(63,131,97,0.09);}
+  .opt.incorrect{border-color:var(--error);background:rgba(179,58,58,0.09);}
+  .opt:disabled{cursor:default;}
+  .unknown-btn{background:none;border:1px dashed var(--muted);color:var(--muted);font-size:0.8rem;padding:6px 10px;border-radius:8px;cursor:pointer;margin-bottom:14px;}
+  .unknown-btn.flagged{border-color:var(--gold);color:#8a6a1f;}
+  .unknown-reveal{font-size:0.85rem;background:rgba(201,152,47,0.13);border-radius:8px;padding:8px 10px;margin-bottom:14px;display:none;}
+  .unknown-reveal.show{display:block;}
+  .feedback{display:none;padding:12px 14px;border-radius:var(--r-sm);font-size:0.9rem;line-height:1.45;margin-bottom:14px;}
+  .feedback.show{display:block;}
+  .feedback.ok{background:rgba(63,131,97,0.1);color:var(--success);}
+  .feedback.ko{background:rgba(179,58,58,0.1);color:var(--error);}
+  .feedback b{display:block;font-family:'Instrument Serif',serif;font-style:italic;font-size:1rem;margin-bottom:3px;}
+  .actions{display:flex;justify-content:space-between;align-items:center;}
+  .next-btn{background:var(--ink);color:var(--paper);border:none;padding:10px 18px;border-radius:20px;font-weight:700;font-size:0.88rem;cursor:pointer;display:none;}
+  .next-btn.show{display:inline-block;}
+  .score-pill{font-size:0.82rem;color:var(--muted);font-variant-numeric:tabular-nums;}
+
+  .loading-box{text-align:center;padding:40px 10px;color:var(--muted);}
+  .loading-box .lt{font-family:'Instrument Serif',serif;font-style:italic;font-size:1.1rem;color:var(--ink);}
+  .loading-dots{font-size:1.8rem;margin-top:8px;letter-spacing:4px;}
+  .loading-dots span{animation:blink 1.4s infinite both;}
+  .loading-dots span:nth-child(2){animation-delay:.2s;}
+  .loading-dots span:nth-child(3){animation-delay:.4s;}
+  @keyframes blink{0%,80%,100%{opacity:0.15;}40%{opacity:1;}}
+
+  .stamp{text-align:center;padding:18px 10px;}
+  .stamp .seal{display:inline-block;border:3px solid var(--gold);color:#8a6a1f;border-radius:50%;width:94px;height:94px;line-height:1.2;padding-top:23px;font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;transform:rotate(-8deg);font-size:1.05rem;}
+  .summary-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0;}
+  .summary-cell{border:1px solid rgba(46,27,61,0.14);border-radius:var(--r-sm);padding:10px;}
+  .summary-cell .n{font-family:'Instrument Serif',serif;font-style:italic;font-size:1.2rem;}
+  .summary-cell .l{font-size:0.74rem;color:var(--muted);}
+
+  .flash{border:1.5px solid rgba(46,27,61,0.18);border-radius:var(--r-md);padding:14px 16px;margin-bottom:10px;cursor:pointer;}
+  .flash .term{font-weight:700;}
+  .flash .translation{display:none;color:var(--muted);margin-top:6px;font-size:0.9rem;}
+  .flash.revealed .translation{display:block;}
+  .flash.revealed{border-color:var(--success);}
+  .finish-btn{background:var(--ink);color:var(--paper);border:none;padding:12px 20px;border-radius:22px;font-weight:700;font-size:0.9rem;cursor:pointer;width:100%;margin-top:8px;}
+  .finish-btn:disabled{opacity:0.4;cursor:not-allowed;}
+
+  /* Vocabulaire */
+  .vocab-section-title{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;font-size:1.05rem;margin:18px 0 10px;}
+  .vocab-section-title:first-child{margin-top:0;}
+  .vcard{border:1px solid rgba(46,27,61,0.16);border-radius:var(--r-sm);padding:12px 14px;margin-bottom:8px;cursor:pointer;}
+  .vcard.priority{border-left:3px solid var(--error);}
+  .vcard .t{font-weight:700;}
+  .vcard .tr{color:var(--muted);font-size:0.88rem;margin-top:4px;display:none;}
+  .vcard.open .tr{display:block;}
+  .vcard .ex{color:#8a6a1f;font-size:0.82rem;font-style:italic;margin-top:4px;display:none;}
+  .vcard.open .ex{display:block;}
+  .learned-btn{font-size:0.76rem;color:var(--success);background:none;border:none;text-decoration:underline;cursor:pointer;padding:4px 0 0;}
+  .empty-note{color:var(--muted);font-size:0.88rem;font-style:italic;}
+  .irr-table{width:100%;border-collapse:collapse;font-size:0.85rem;margin-top:4px;}
+  .irr-table th,.irr-table td{text-align:left;padding:6px 8px;border-bottom:1px solid rgba(46,27,61,0.1);}
+  .irr-table th{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;color:var(--muted);font-size:0.82rem;}
+  .irr-table tr.trap td{color:var(--error);}
+
+  /* Reading / Listening */
+  .passage-box{background:var(--paper);border-radius:var(--r-md);padding:16px 18px;font-size:0.98rem;line-height:1.6;margin-bottom:18px;color:var(--ink);}
+  .qa-block{margin-bottom:16px;}
+  .qa-block label{display:block;font-weight:700;font-size:0.9rem;margin-bottom:6px;}
+  .qa-block textarea{width:100%;border:1.5px solid rgba(46,27,61,0.2);border-radius:var(--r-sm);padding:10px 12px;font-family:'Manrope',sans-serif;font-size:0.92rem;resize:vertical;min-height:56px;}
+  .qa-block textarea:focus{outline:none;border-color:var(--raspberry);}
+  .qa-feedback{margin-top:6px;padding:8px 10px;border-radius:8px;font-size:0.84rem;display:none;}
+  .qa-feedback.show{display:block;}
+  .qa-feedback.ok{background:rgba(63,131,97,0.12);color:var(--success);}
+  .qa-feedback.ko{background:rgba(179,58,58,0.12);color:var(--error);}
+  .qa-feedback.neutral{background:rgba(110,95,120,0.12);color:var(--muted);}
+  .listen-btn{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--paper);border:none;padding:11px 18px;border-radius:24px;font-weight:700;font-size:0.9rem;cursor:pointer;margin-bottom:8px;}
+  .listen-btn:disabled{opacity:0.4;cursor:not-allowed;}
+  .listen-btn svg{width:17px;height:17px;}
+  .listen-count{font-size:0.78rem;color:var(--muted);display:block;margin-bottom:16px;}
+  .submit-btn{background:var(--ink);color:var(--paper);border:none;padding:12px 20px;border-radius:22px;font-weight:700;font-size:0.9rem;cursor:pointer;width:100%;margin-top:6px;}
+  .submit-btn:disabled{opacity:0.4;cursor:not-allowed;}
+
+  /* Writing */
+  .req-words{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px;}
+  .req-chip{background:rgba(201,152,47,0.15);color:#8a6a1f;border:1px solid rgba(201,152,47,0.35);padding:4px 10px;border-radius:14px;font-size:0.8rem;font-weight:700;}
+  .req-chip.used{background:rgba(63,131,97,0.15);color:var(--success);border-color:rgba(63,131,97,0.35);}
+  textarea.big{width:100%;min-height:140px;border:1.5px solid rgba(46,27,61,0.2);border-radius:var(--r-sm);padding:12px 14px;font-family:'Manrope',sans-serif;font-size:0.94rem;resize:vertical;}
+  textarea.big:focus{outline:none;border-color:var(--raspberry);}
+  .wordcount{font-size:0.78rem;color:var(--muted);text-align:right;margin:4px 0 14px;}
+  .corr-card{border-left:3px solid var(--raspberry);background:var(--paper);border-radius:0 var(--r-sm) var(--r-sm) 0;padding:10px 14px;margin-bottom:10px;font-size:0.88rem;}
+  .corr-card .orig{color:var(--error);text-decoration:line-through;margin-right:6px;}
+  .corr-card .fix{color:var(--success);font-weight:700;}
+  .corr-card .why{color:var(--muted);display:block;margin-top:4px;font-size:0.82rem;}
+
+  /* Save bar */
+  .savebar{display:flex;gap:8px;margin-bottom:14px;}
+  .save-btn{flex:1;background:var(--surface);border:1.5px solid rgba(46,27,61,0.18);color:var(--ink);padding:9px 8px;border-radius:var(--r-sm);font-family:'Manrope',sans-serif;font-weight:700;font-size:0.74rem;cursor:pointer;}
+
+  /* Skill level panel */
+  .level-panel{background:var(--paper);border-radius:var(--r-md);padding:14px 16px;margin-bottom:18px;}
+  .level-panel .lp-title{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;font-size:1rem;margin:0 0 10px;}
+  .level-row{display:flex;justify-content:space-between;align-items:center;padding:6px 0;font-size:0.88rem;}
+  .level-badge{background:var(--ink);color:var(--paper);font-weight:700;font-size:0.8rem;padding:3px 11px;border-radius:12px;}
+  .level-note{font-size:0.82rem;padding:9px 12px;border-radius:8px;margin-top:10px;background:rgba(63,131,97,0.12);color:var(--success);}
+  .level-note.down{background:rgba(179,58,58,0.1);color:var(--error);}
+  .level-note.same{background:rgba(110,95,120,0.1);color:var(--muted);}
+
+  /* Cloze */
+  .cloze-row{display:flex;gap:8px;margin-bottom:12px;}
+  .cloze-row input{flex:1;border:1.5px solid rgba(46,27,61,0.2);border-radius:var(--r-sm);padding:10px 12px;font-family:'Manrope',sans-serif;font-size:0.95rem;}
+  .cloze-row input:focus{outline:none;border-color:var(--raspberry);}
+  .cloze-row button{background:var(--ink);color:var(--paper);border:none;padding:0 18px;border-radius:var(--r-sm);font-weight:700;font-size:0.85rem;cursor:pointer;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero" id="hero">
+    <h1>Ton coach d'anglais</h1>
+    <div class="sub">Cours, exercices générés à la volée, vocabulaire personnel</div>
+    <div class="hero-stats">
+      <div class="hero-chip" id="heroMastered">0/7 thèmes maîtrisés</div>
+      <div class="hero-chip" id="heroReview">0 mot à revoir</div>
+    </div>
+  </div>
+
+  <div class="maintabs">
+    <button class="maintab active" data-tab="cours"></button>
+    <button class="maintab" data-tab="exercices"></button>
+    <button class="maintab" data-tab="vocab"></button>
+    <button class="maintab" data-tab="save"></button>
+  </div>
+
+  <input type="file" id="importFile" accept="application/json" style="display:none">
+
+  <div class="card" id="card"></div>
+</div>
+
+<script>
+/* ---------- Icons ---------- */
+const ICONS = {
+  book:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5c2-1 4.5-1 6.5 0v13c-2-1-4.5-1-6.5 0v-13Z"/><path d="M17.5 5.5c-2-1-4.5-1-6.5 0v13c2-1 4.5-1 6.5 0v-13Z"/></svg>`,
+  target:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="7.5"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="0.9" fill="currentColor" stroke="none"/></svg>`,
+  layers:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 3.5 3.5 8 12 12.5 20.5 8 12 3.5Z"/><path d="M3.5 12 12 16.5 20.5 12"/><path d="M3.5 16 12 20.5 20.5 16"/></svg>`,
+  pencil:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l1-4.2L15.8 5 19 8.2 8.2 19 4 20Z"/><path d="M13.2 6.6 17.4 10.8"/></svg>`,
+  headphones:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 13v-1a8 8 0 0 1 16 0v1"/><rect x="3" y="13" width="4" height="6" rx="1.5"/><rect x="17" y="13" width="4" height="6" rx="1.5"/></svg>`,
+  speaker:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5v5h3.5L13 19V5L7.5 9.5H4Z"/><path d="M16.5 8.5a5 5 0 0 1 0 7"/></svg>`,
+  shield:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 19 6v5.5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-2.5Z"/><path d="M9 12l2 2 4-4.5"/></svg>`
+};
+document.querySelector('[data-tab="cours"]').innerHTML = ICONS.book + '<span>Cours</span>';
+document.querySelector('[data-tab="exercices"]').innerHTML = ICONS.target + '<span>Exercices</span>';
+document.querySelector('[data-tab="vocab"]').innerHTML = ICONS.layers + '<span>Vocabulaire</span>';
+document.querySelector('[data-tab="save"]').innerHTML = ICONS.shield + '<span>Sauvegarde</span>';
+
+/* ---------- Local storage: IndexedDB primary, localStorage safety net ----------
+   No dependency on Claude, window.storage, or any network connection. */
+const IDB_NAME = 'coach_anglais_db';
+const IDB_VERSION = 1;
+const IDB_STORE = 'kv';
+function openIDB(){
+  return new Promise((resolve, reject) => {
+    if (!('indexedDB' in window)) { reject(new Error('IndexedDB unavailable')); return; }
+    const req = indexedDB.open(IDB_NAME, IDB_VERSION);
+    req.onupgradeneeded = () => { req.result.createObjectStore(IDB_STORE); };
+    req.onsuccess = () => resolve(req.result);
+    req.onerror = () => reject(req.error);
+  });
+}
+async function storeGet(key){
+  try{
+    const db = await openIDB();
+    const val = await new Promise((resolve, reject) => {
+      const tx = db.transaction(IDB_STORE, 'readonly');
+      const req = tx.objectStore(IDB_STORE).get(key);
+      req.onsuccess = () => resolve(req.result);
+      req.onerror = () => reject(req.error);
+    });
+    if (val !== undefined && val !== null) return val;
+  }catch(e){ console.warn('IndexedDB read failed, trying localStorage', e); }
+  try{
+    const raw = localStorage.getItem('lsfallback_' + key);
+    return raw ? JSON.parse(raw) : null;
+  }catch(e2){ return null; }
+}
+async function storeSet(key, value){
+  let ok = false;
+  try{
+    const db = await openIDB();
+    await new Promise((resolve, reject) => {
+      const tx = db.transaction(IDB_STORE, 'readwrite');
+      tx.objectStore(IDB_STORE).put(value, key);
+      tx.oncomplete = () => resolve();
+      tx.onerror = () => reject(tx.error);
+    });
+    ok = true;
+  }catch(e){ console.warn('IndexedDB write failed, falling back to localStorage', e); }
+  try{
+    localStorage.setItem('lsfallback_' + key, JSON.stringify(value));
+    ok = true;
+  }catch(e2){ /* both failed; ok stays as IndexedDB result */ }
+  return ok;
+}
+async function storeDelete(key){
+  try{ const db = await openIDB(); const tx = db.transaction(IDB_STORE, 'readwrite'); tx.objectStore(IDB_STORE).delete(key); }catch(e){}
+  try{ localStorage.removeItem('lsfallback_' + key); }catch(e2){}
+}
+
+/* ---------- Categories ---------- */
+const catNames = {phrasal:'Verbes à particule', articles:'Articles', modals:'Modaux', agreement:'Accords', falsefriends:'Faux-amis', tenses:'Temps verbaux', irregular:'Verbes irréguliers', mixed:'Général'};
+const catColors = {phrasal:'var(--raspberry)', articles:'var(--gold)', modals:'var(--teal)', agreement:'var(--success)', falsefriends:'var(--error)', tenses:'var(--violet)', irregular:'var(--sky)', mixed:'var(--muted)'};
+const CATEGORY_KEYS = ['phrasal','articles','modals','agreement','falsefriends','tenses','irregular'];
+const MASTER_STREAK = 4;
+const REVIEW_THRESHOLD = 2;
+
+/* ---------- Vocab bank ---------- */
+const vocabBank = [
+  {id:'give_up', cat:'phrasal', term:'to give up', translation:'abandonner, renoncer à', example:'She gave up sugar for a month.'},
+  {id:'look_forward', cat:'phrasal', term:'to look forward to', translation:'avoir hâte de', example:'I look forward to seeing you.'},
+  {id:'put_off', cat:'phrasal', term:'to put off', translation:'reporter, remettre à plus tard', example:`Let's put off the meeting.`},
+  {id:'get_back_to', cat:'phrasal', term:'to get back to (someone)', translation:`rappeler, recontacter quelqu'un`, example:`I'll get back to you by Friday.`},
+  {id:'deal_with', cat:'phrasal', term:'to deal with', translation:`gérer, s'occuper de`, example:'I need to deal with this problem.'},
+  {id:'come_up_with', cat:'phrasal', term:'to come up with', translation:'trouver (une idée)', example:'She came up with a great solution.'},
+  {id:'put_up_with', cat:'phrasal', term:'to put up with', translation:'supporter', example:`I can't put up with this noise.`},
+  {id:'run_out_of', cat:'phrasal', term:'to run out of', translation:'manquer de, être à court de', example:'We ran out of milk.'},
+  {id:'turn_down', cat:'phrasal', term:'to turn down', translation:'refuser', example:'He turned down the job offer.'},
+  {id:'keep_up_with', cat:'phrasal', term:'to keep up with', translation:'suivre le rythme de', example:`It's hard to keep up with the news.`},
+  {id:'look_after', cat:'phrasal', term:'to look after', translation:`s'occuper de, garder (qqn)`, example:'Who will look after the kids?'},
+  {id:'find_out', cat:'phrasal', term:'to find out', translation:'découvrir, se renseigner', example:'I need to find out what happened.'},
+  {id:'set_up', cat:'phrasal', term:'to set up', translation:'créer, monter (un projet)', example:'She wants to set up her own business.'},
+  {id:'get_up', cat:'phrasal', term:'to get up', translation:'se lever', example:'I get up at 7am.'},
+  {id:'work_out', cat:'phrasal', term:'to work out', translation:`bien se passer / faire de l'exercice`, example:'I hope this works out well.'},
+  {id:'article_a', cat:'articles', term:'a / an', translation:'un/une — première mention, non spécifique', example:'I had lunch at a restaurant.'},
+  {id:'article_the_instrument', cat:'articles', term:'play the + instrument', translation:`jouer d'un instrument (avec "the")`, example:'He plays the guitar.'},
+  {id:'article_zero', cat:'articles', term:'article zéro (∅)', translation:`pas d'article — généralité / indénombrable`, example:'Employees need flexibility.'},
+  {id:'modal_bare', cat:'modals', term:'modal + verbe de base', translation:'jamais de "be" ni de "-s" après un modal', example:'This method could improve the results.'},
+  {id:'modal_able', cat:'modals', term:'modal + be able to', translation:'pouvoir faire quelque chose', example:'They should be able to choose.'},
+  {id:'modal_passive', cat:'modals', term:'modal + be + participe passé', translation:'passif après un modal', example:'The rules must be followed.'},
+  {id:'compound_adj', cat:'agreement', term:'adjectif composé (nombre-nom-)', translation:'ex : a 2-hour flight (nom singulier, tirets)', example:`It's a 2-hour flight.`},
+  {id:'everyone_sing', cat:'agreement', term:'everyone / everybody', translation:`toujours suivi d'un verbe au singulier`, example:'Everyone has to bring lunch.'},
+  {id:'subject_verb', cat:'agreement', term:'accord sujet-verbe', translation:'pluriel → verbe sans -s / singulier → verbe en -s', example:'The employees have three meetings.'},
+  {id:'consumption', cat:'falsefriends', term:'consumption', translation:`consommation (ne s'écrit pas comme en français)`, example:'Consumer consumption rose.'},
+  {id:'beneficial', cat:'falsefriends', term:'beneficial', translation:'bénéfique', example:'This policy is beneficial for workers.'},
+  {id:'economy_economics', cat:'falsefriends', term:'the economy / economics', translation:`l'économie (système) / l'économie (discipline)`, example:`It's good for the economy.`},
+  {id:'sensible', cat:'falsefriends', term:'sensible (faux-ami)', translation:'raisonnable, pragmatique — PAS "sensible" au sens émotif', example:'He is very sensible.'},
+  {id:'actually_currently', cat:'falsefriends', term:'actually / currently (faux-amis)', translation:'en fait / actuellement', example:'I am currently learning English.'},
+  {id:'found_founded', cat:'falsefriends', term:'found / founded (faux-amis)', translation:'trouvé (passé de find) / fondé', example:'I found a solution.'}
+];
+function vocabById(id){ return vocabBank.find(v => v.id === id); }
+function getWord(q){ if (q.word) return q.word; if (q.vocabId) return vocabById(q.vocabId); return null; }
+
+/* ---------- Irregular verbs ---------- */
+const irregularVerbs = [
+  {base:'be', past:'was / were', part:'been', fr:`être`},
+  {base:'have', past:'had', part:'had', fr:'avoir'},
+  {base:'do', past:'did', part:'done', fr:'faire'},
+  {base:'go', past:'went', part:'gone', fr:'aller'},
+  {base:'see', past:'saw', part:'seen', fr:'voir'},
+  {base:'give', past:'gave', part:'given', fr:'donner'},
+  {base:'take', past:'took', part:'taken', fr:'prendre'},
+  {base:'come', past:'came', part:'come', fr:'venir'},
+  {base:'write', past:'wrote', part:'written', fr:`écrire`},
+  {base:'speak', past:'spoke', part:'spoken', fr:'parler'},
+  {base:'break', past:'broke', part:'broken', fr:'casser'},
+  {base:'eat', past:'ate', part:'eaten', fr:'manger'},
+  {base:'drink', past:'drank', part:'drunk', fr:'boire'},
+  {base:'begin', past:'began', part:'begun', fr:'commencer'},
+  {base:'know', past:'knew', part:'known', fr:`savoir, connaître`},
+  {base:'think', past:'thought', part:'thought', fr:'penser'},
+  {base:'buy', past:'bought', part:'bought', fr:'acheter'},
+  {base:'win', past:'won', part:'won', fr:'gagner'},
+  {base:'read', past:'read*', part:'read*', fr:'lire (*prononciation différente)'},
+  {base:'lie', past:'lay', part:'lain', fr:`s'allonger (intransitif) — piège avec "lay"`},
+  {base:'lay', past:'laid', part:'laid', fr:'poser quelque chose (transitif)'},
+  {base:'rise', past:'rose', part:'risen', fr:`s'élever (intransitif) — piège avec "raise"`},
+  {base:'raise', past:'raised', part:'raised', fr:'élever, lever quelque chose (transitif)'}
+];
+
+/* ---------- Lessons ---------- */
+const lessons = [
+  {id:'phrasal', tag:'Leçon', title:'Les verbes à particule (phrasal verbs)', body: `
+    <p>Un verbe à particule est un verbe suivi d'une préposition ou d'un adverbe dont le sens global n'est souvent pas déductible des deux mots pris séparément.</p>
+    <h3>Méthode pour les retenir</h3>
+    <ul>
+      <li>Ne les traduis jamais mot à mot : apprends-les comme un bloc, avec un exemple.</li>
+      <li>Regroupe-les par thème (gestion — deal with, come up with ; routine — get up, look after, work out).</li>
+      <li>Réutilise-les à l'oral même de façon imparfaite : c'est la répétition en contexte qui les ancre.</li>
+    </ul>
+    <h3>Les plus fréquents</h3>
+    <ul>
+      <li><b>give up</b> — abandonner</li>
+      <li><b>look forward to</b> — avoir hâte de</li>
+      <li><b>put off</b> — reporter</li>
+      <li><b>get back to</b> — rappeler quelqu'un</li>
+      <li><b>deal with</b> — gérer</li>
+      <li><b>come up with</b> — trouver une idée</li>
+      <li><b>put up with</b> — supporter</li>
+      <li><b>run out of</b> — manquer de</li>
+      <li><b>turn down</b> — refuser</li>
+      <li><b>keep up with</b> — suivre le rythme de</li>
+      <li><b>look after</b> — s'occuper de</li>
+      <li><b>find out</b> — découvrir</li>
+      <li><b>set up</b> — créer, monter</li>
+      <li><b>get up</b> — se lever</li>
+      <li><b>work out</b> — bien se passer / faire de l'exercice</li>
+    </ul>
+  `},
+  {id:'articles', tag:'Leçon', title:'Les articles : a / an / the / ∅', body: `
+    <p>L'article dépend de trois choses : le nom est-il <b>comptable</b> ou <b>indénombrable</b>, <b>spécifique</b> ou <b>général</b>, et est-ce sa <b>première mention</b>.</p>
+    <h3>a / an</h3>
+    <p>Devant un nom comptable singulier, non spécifique. "An" si le mot commence par un son voyelle.</p>
+    <p class="ex">I had lunch at a restaurant. She works as an engineer.</p>
+    <h3>the</h3>
+    <p>Devant un nom déjà mentionné, unique, ou spécifique pour les deux interlocuteurs. Aussi pour les instruments de musique qu'on pratique.</p>
+    <p class="ex">He plays the guitar. (règle fixe à connaître par cœur)</p>
+    <h3>∅ (pas d'article)</h3>
+    <p>Devant un nom indénombrable au sens général, ou un pluriel générique.</p>
+    <p class="ex">Employees need flexibility. Cats are independent animals.</p>
+  `},
+  {id:'modals', tag:'Leçon', title:'Les modaux : sens et construction', body: `
+    <h3>Le sens des modaux</h3>
+    <ul>
+      <li><b>must</b> — obligation forte / quasi-certitude : "You must wear a seatbelt."</li>
+      <li><b>have to</b> — obligation qui vient de l'extérieur : "I have to work on Saturday."</li>
+      <li><b>should</b> — conseil : "You should see a doctor."</li>
+      <li><b>can / could</b> — capacité, permission, possibilité : "Can I open the window?"</li>
+      <li><b>may / might</b> — possibilité incertaine : "It might rain later."</li>
+      <li><b>need to</b> — nécessité concrète : "I need to buy some milk."</li>
+    </ul>
+    <h3>La construction</h3>
+    <p>Après un modal, le verbe est <b>toujours à sa forme de base</b>, sans "to", sans "-s", et surtout <b>sans "be"</b> — sauf vrai passif.</p>
+    <p class="ex">This method could improve the results. (pas "could be improve")</p>
+    <h3>Modal + be able to + verbe</h3>
+    <p class="ex">Employees should be able to choose their hours. (pas "should be choose")</p>
+    <h3>Modal + be + participe passé (le vrai passif)</h3>
+    <p class="ex">The rules must be followed. The project can be finished next week.</p>
+  `},
+  {id:'tenses', tag:'Leçon', title:'Les temps verbaux : bien choisir son temps', body: `
+    <p>C'est souvent le point le plus difficile pour les francophones, car le present perfect n'a pas d'équivalent direct en français.</p>
+    <h3>Present simple vs present continuous</h3>
+    <p class="ex">I work every day. (habitude) / Look, it's raining! (maintenant) / We're meeting them tomorrow. (déjà prévu)</p>
+    <h3>Past simple vs present perfect</h3>
+    <p>Past simple = moment précis et daté. Present perfect = pas de date, ou lien avec le présent (résultat, expérience, "since/for").</p>
+    <p class="ex">I saw that movie last year. / I have seen that movie. / She has lived here since 2019.</p>
+    <h3>going to vs will</h3>
+    <p>"going to" = prédiction avec preuve visible, ou projet déjà décidé. "will" = décision spontanée, promesse.</p>
+    <p class="ex">Look at those clouds, it's going to rain. / I'll call you back.</p>
+    <h3>Astuce générale</h3>
+    <p class="ex">Date précise ("yesterday", "in 2020") → past simple. "since/for/already/just/ever/never" → present perfect.</p>
+  `},
+  {id:'irregular', tag:'Leçon', title:'Les verbes irréguliers : les pièges classiques', body: `
+    <p>Trois familles : formes identiques (put-put-put), passé = participe (buy-bought-bought), trois formes différentes (go-went-gone).</p>
+    <h3>L'erreur la plus fréquente</h3>
+    <p>Vouloir les régulariser en "-ed" : "goed", "doed", "seed" n'existent pas.</p>
+    <p class="ex">She has gone home. (pas "has went") / He has done his homework. (pas "has did")</p>
+    <h3>Deux pièges à isoler</h3>
+    <p><b>lie / lay</b> — "lie" (s'allonger, intransitif) : lie-lay-lain. "lay" (poser qqch, transitif) : lay-laid-laid.</p>
+    <p class="ex">I lie down when I'm tired. → Yesterday I lay down early.</p>
+    <p><b>rise / raise</b> — "rise" (s'élever, intransitif) : rise-rose-risen. "raise" (élever qqch, transitif) : régulier.</p>
+    <p class="ex">Prices rise every year. / The teacher raises her hand.</p>
+    <p>Liste complète dans l'onglet <b>Vocabulaire</b>.</p>
+  `},
+  {id:'agreement', tag:'Leçon', title:'Accords sujet-verbe et adjectifs composés', body: `
+    <p>Sujet pluriel → verbe sans "-s". Sujet singulier → verbe en "-s" au présent simple.</p>
+    <p class="ex">The employees have three meetings. / The policy affects everyone.</p>
+    <h3>Piège : everyone, everybody, someone...</h3>
+    <p class="ex">Everyone has to bring their own lunch.</p>
+    <h3>Adjectifs composés</h3>
+    <p>Nombre + nom + tirets → le nom reste au singulier.</p>
+    <p class="ex">a 2-hour flight — a 30-year-old woman — a 35-hour work week</p>
+  `},
+  {id:'falsefriends', tag:'Leçon', title:'Les faux-amis franco-anglais', body: `
+    <ul>
+      <li><b>consumption</b> = consommation — orthographe différente du français.</li>
+      <li><b>beneficial</b> = bénéfique — "benefic" n'existe pas.</li>
+      <li><b>the economy</b> (système) vs <b>economics</b> (discipline universitaire).</li>
+      <li><b>sensible</b> = raisonnable — PAS "sensible" au sens émotif (= "sensitive").</li>
+      <li><b>actually</b> = en fait — PAS "actuellement" (= "currently").</li>
+      <li><b>found</b> (passé de "find") vs <b>founded</b> (fondé, créé).</li>
+    </ul>
+    <p>Réflexe : un mot "trop facile" à traduire depuis le français cache souvent un faux-ami.</p>
+  `}
+];
+
+/* ---------- Static QCM pool ---------- */
+const staticQuestions = [
+  {id:'sq01', cat:'phrasal', vocabId:'put_up_with', prompt:`I can't <em>___</em> this noise every night, it's unbearable.`, options:["put up with","give up","look forward to","point out"], answer:0, explain:`"put up with" = supporter. "give up" aurait été un piège classique : ça veut dire abandonner.`},
+  {id:'sq02', cat:'phrasal', vocabId:'give_up', prompt:`She finally <em>___</em> smoking after ten years.`, options:["turned down","gave up","got back to","carried out"], answer:1, explain:`"give up" = abandonner / renoncer à.`},
+  {id:'sq03', cat:'phrasal', vocabId:'run_out_of', prompt:`We <em>___</em> milk, can you buy some?`, options:["ran out of","dealt with","kept up with","relied on"], answer:0, explain:`"run out of" = manquer de / être à court de.`},
+  {id:'sq04', cat:'phrasal', vocabId:'get_back_to', prompt:`I'll <em>___</em> you by Friday with my answer.`, options:["figure out","get back to","turn down","come up with"], answer:1, explain:`"get back to someone" = rappeler quelqu'un.`},
+  {id:'sq05', cat:'phrasal', vocabId:'turn_down', prompt:`He <em>___</em> the job offer because the salary was too low.`, options:["turned down","looked forward to","put off","carried out"], answer:0, explain:`"turn down" = refuser (une offre, une invitation).`},
+  {id:'sq06', cat:'phrasal', vocabId:'keep_up_with', prompt:`It's hard to <em>___</em> all the news these days.`, options:["keep up with","put up with","give up","point out"], answer:0, explain:`"keep up with" = suivre le rythme de.`},
+  {id:'sq07', cat:'phrasal', vocabId:'look_after', prompt:`Who's going to <em>___</em> the kids while you're away?`, options:["look after","look for","look up","look out"], answer:0, explain:`"look after" = s'occuper de, garder quelqu'un.`},
+  {id:'sq08', cat:'phrasal', vocabId:'find_out', prompt:`I need to <em>___</em> what happened before I decide.`, options:["find out","find up","find off","find in"], answer:0, explain:`"find out" = découvrir, se renseigner.`},
+  {id:'sq09', cat:'phrasal', vocabId:'set_up', prompt:`She wants to <em>___</em> her own business.`, options:["set up","set off","set out","set back"], answer:0, explain:`"set up" = créer, monter une entreprise.`},
+  {id:'sq10', cat:'phrasal', vocabId:'get_up', prompt:`I usually <em>___</em> at 7am on weekdays.`, options:["get up","get on","get off","get over"], answer:0, explain:`"get up" = se lever.`},
+  {id:'sq11', cat:'phrasal', vocabId:'work_out', prompt:`This new routine really <em>___</em> well for me.`, options:["works out","works up","works off","works in"], answer:0, explain:`"work out" = bien se passer / fonctionner.`},
+  {id:'sq12', cat:'articles', vocabId:'article_a', prompt:`I had lunch at <em>___</em> restaurant near my office.`, options:["restaurant","a restaurant","the restaurant","∅ restaurant"], answer:1, explain:`Première mention d'un nom comptable singulier → "a".`},
+  {id:'sq13', cat:'articles', vocabId:'article_a', prompt:`She works as <em>___</em> engineer.`, options:["engineer","an engineer","the engineer","∅ engineer"], answer:1, explain:`"Engineer" commence par un son voyelle → "an".`},
+  {id:'sq14', cat:'articles', vocabId:'article_a', prompt:`We need <em>___</em> new plan for the project.`, options:["new plan","a new plan","the new plan","plan new"], answer:1, explain:`Nom comptable singulier, pas encore mentionné → "a new plan".`},
+  {id:'sq15', cat:'articles', vocabId:'article_the_instrument', prompt:`He plays <em>___</em> guitar every evening.`, options:["a guitar","guitar","the guitar","∅ guitar"], answer:2, explain:`Instrument de musique pratiqué → "the".`},
+  {id:'sq16', cat:'articles', vocabId:'article_zero', prompt:`Employees should have <em>___</em> flexibility to manage their time.`, options:["a flexibility","the flexibility","∅ flexibility","flexibilities"], answer:2, explain:`"Flexibility" indénombrable ici → pas d'article.`},
+  {id:'sq17', cat:'articles', vocabId:'article_a', prompt:`I bought <em>___</em> umbrella yesterday because it was raining.`, options:["a umbrella","an umbrella","the umbrella","∅ umbrella"], answer:1, explain:`"Umbrella" commence par un son voyelle → "an".`},
+  {id:'sq18', cat:'modals', vocabId:'modal_able', prompt:`Choisis la phrase correcte :`, options:["Employees should be choose their hours.","Employees should be able to choose their hours.","Employees should choosing their hours."], answer:1, explain:`Modal + "be able to" + verbe de base.`},
+  {id:'sq19', cat:'modals', vocabId:'modal_bare', prompt:`Choisis la phrase correcte :`, options:["This method could be improve the results.","This method could improve the results.","This method could improving the results."], answer:1, explain:`Modal + verbe de base, sans "be".`},
+  {id:'sq20', cat:'modals', vocabId:'modal_passive', prompt:`Choisis la phrase correcte :`, options:["The rules must be follow carefully.","The rules must be followed carefully.","The rules must followed carefully."], answer:1, explain:`Vrai passif : modal + be + participe passé.`},
+  {id:'sq21', cat:'modals', vocabId:'modal_able', prompt:`Choisis la phrase correcte :`, options:["Students should be able study abroad.","Students should be able to study abroad.","Students should able to study abroad."], answer:1, explain:`"should be able to + verbe" — ne pas oublier "to".`},
+  {id:'sq22', cat:'modals', word:{term:'should vs must', translation:'choisir le bon modal selon le sens', example:'You should see a doctor if the pain continues.'}, prompt:`You ___ see a doctor if the pain continues.`, options:["should","must","can"], answer:0, explain:`"should" = conseil. "must" serait trop fort ici.`},
+  {id:'sq23', cat:'modals', word:{term:'might (possibilité)', translation:'il est possible que...', example:'It might rain later.'}, prompt:`It ___ rain later, take an umbrella just in case.`, options:["must","might","have to"], answer:1, explain:`"might" = possibilité incertaine, parfait pour une prévision météo.`},
+  {id:'sq24', cat:'agreement', vocabId:'subject_verb', prompt:`Choisis la phrase correcte :`, options:["The employee have three meetings today.","The employees have three meetings today.","The employees has three meetings today."], answer:1, explain:`Sujet pluriel "employees" → verbe "have".`},
+  {id:'sq25', cat:'agreement', vocabId:'compound_adj', prompt:`Choisis la phrase correcte :`, options:["It's a 2 hours flight.","It's a 2-hour flight.","It's a 2-hours flight."], answer:1, explain:`Adjectif composé → singulier avec trait d'union.`},
+  {id:'sq26', cat:'agreement', vocabId:'compound_adj', prompt:`Choisis la phrase correcte :`, options:["She is a 30-year-old woman.","She is a 30-years-old woman.","She is a 30 year old woman."], answer:0, explain:`"year" reste au singulier avec des traits d'union.`},
+  {id:'sq27', cat:'agreement', vocabId:'everyone_sing', prompt:`Choisis la phrase correcte :`, options:["Everyone have to bring their own lunch.","Everyone has to bring their own lunch.","Everyone are bringing their own lunch."], answer:1, explain:`"Everyone" toujours suivi d'un verbe au singulier.`},
+  {id:'sq28', cat:'agreement', vocabId:'subject_verb', prompt:`Choisis la phrase correcte :`, options:["The company's new policy affect everyone.","The company's new policy affects everyone.","The company's new policy are affecting everyone."], answer:1, explain:`Sujet singulier "policy" → verbe "affects".`},
+  {id:'sq29', cat:'falsefriends', vocabId:'consumption', prompt:`Flexible hours could increase consumer <em>___</em>.`, options:["consommation","consumption","consumering"], answer:1, explain:`"consumption" = consommation, "consommation" est un mot français.`},
+  {id:'sq30', cat:'falsefriends', vocabId:'beneficial', prompt:`This policy would be <em>___</em> for workers.`, options:["benefic","beneficial","benefit"], answer:1, explain:`"beneficial" = bénéfique. "Benefic" n'existe pas.`},
+  {id:'sq31', cat:'falsefriends', vocabId:'economy_economics', prompt:`It's good news for <em>___</em> in general.`, options:["the economy","economics","the economics"], answer:0, explain:`"the economy" = le système économique.`},
+  {id:'sq32', cat:'falsefriends', vocabId:'found_founded', prompt:`I finally <em>___</em> a solution to the problem.`, options:["found","founded","find"], answer:0, explain:`"found" = passé de "find". "Founded" = fondé.`},
+  {id:'sq33', cat:'falsefriends', vocabId:'sensible', prompt:`He is very <em>sensible</em> — en français ça veut dire :`, options:["sensible / émotif","raisonnable / pragmatique","les deux sont vrais"], answer:1, explain:`Faux-ami classique : "sensible" en anglais = raisonnable.`},
+  {id:'sq34', cat:'falsefriends', vocabId:'actually_currently', prompt:`Choisis la traduction correcte de "actuellement" :`, options:["actually","currently","eventually"], answer:1, explain:`"actually" = en fait. "currently" = actuellement.`},
+  {id:'sq35', cat:'tenses', word:{term:'present perfect (already)', translation:'expérience passée sans date précise', example:'I have already read this book three times.'}, prompt:`I ___ this book three times already.`, options:["read","have read","have readed","am reading"], answer:1, explain:`Present perfect + "already". "Have readed" n'existe pas (read-read-read).`},
+  {id:'sq36', cat:'tenses', word:{term:'present perfect + since', translation:'action commencée dans le passé, qui continue', example:'She has lived here since 2019.'}, prompt:`She ___ in Paris since 2019.`, options:["lives","has lived","lived","is living"], answer:1, explain:`"since" + present perfect pour une situation qui continue.`},
+  {id:'sq37', cat:'tenses', word:{term:'present continuous (maintenant)', translation:'action en cours', example:'Look! It is raining.'}, prompt:`Look! It ___.`, options:["rains","is raining","rain","has rain"], answer:1, explain:`Present continuous pour une action en cours (cue : "Look!").`},
+  {id:'sq38', cat:'tenses', word:{term:'present continuous (futur organisé)', translation:'projet déjà décidé', example:'We are going to the cinema tomorrow.'}, prompt:`We ___ to the cinema tomorrow evening, I already bought the tickets.`, options:["go","are going","will go","went"], answer:1, explain:`Present continuous pour un projet déjà organisé.`},
+  {id:'sq39', cat:'tenses', word:{term:'going to (prédiction avec preuve)', translation:'prédiction basée sur une preuve visible', example:'Look at the clouds, it is going to rain.'}, prompt:`Look at those clouds! It ___.`, options:["will rain","is going to rain","rains","is raining"], answer:1, explain:`"going to" pour une prédiction basée sur une preuve visible.`},
+  {id:'sq40', cat:'tenses', word:{term:'past simple (habitude passée)', translation:'action répétée, terminée', example:'I went to the beach every summer as a child.'}, prompt:`When I was a child, I ___ to the beach every summer.`, options:["go","went","have gone","was going"], answer:1, explain:`Past simple pour une habitude révolue et datée.`},
+  {id:'sq41', cat:'irregular', word:{term:'see → saw → seen', translation:'voir (participe passé après have)', example:'I have already seen this movie.'}, prompt:`I have already ___ this movie.`, options:["saw","seen","seed","seeing"], answer:1, explain:`Après "have" : participe passé "seen", pas "saw".`},
+  {id:'sq42', cat:'irregular', word:{term:'go → went → gone', translation:'aller (jamais "goed")', example:'She went to the store yesterday.'}, prompt:`She ___ to the store yesterday.`, options:["goed","went","gone","going"], answer:1, explain:`Passé simple de "go" = "went", jamais "goed".`},
+  {id:'sq43', cat:'irregular', word:{term:'do → did → done', translation:'faire (participe passé après have)', example:'He has done his homework.'}, prompt:`He has ___ his homework.`, options:["did","done","doed","doing"], answer:1, explain:`Participe passé de "do" = "done".`},
+  {id:'sq44', cat:'irregular', word:{term:'win → won → won', translation:'gagner (jamais "winned")', example:'They won the game last night.'}, prompt:`They ___ the game last night.`, options:["winned","won","win","wonned"], answer:1, explain:`Passé simple de "win" = "won".`},
+  {id:'sq45', cat:'irregular', word:{term:'lie vs lay', translation:"s'allonger (intransitif) vs poser qqch (transitif)", example:"Lie down if you're tired."}, prompt:`Please, ___ down if you're tired.`, options:["lay","lie","lied","laid"], answer:1, explain:`"lie down" = s'allonger soi-même (intransitif).`},
+  {id:'sq46', type:'cloze', cat:'phrasal', word:{term:'give up', translation:'abandonner', example:'She gave up chocolate.'}, prompt:`She finally ___ ___ chocolate for a whole month. (2 mots, "abandonner")`, acceptableAnswers:['gave up'], explain:`"give up" = abandonner, renoncer à.`},
+  {id:'sq47', type:'cloze', cat:'articles', word:{term:'a / an', translation:'article indéfini', example:'She is an architect.'}, prompt:`She is ___ architect. (complète avec l'article manquant)`, acceptableAnswers:['an'], explain:`"Architect" commence par un son voyelle → "an".`},
+  {id:'sq48', type:'cloze', cat:'modals', word:{term:'modal + verbe de base', translation:'sans "be"', example:'This could improve things.'}, prompt:`This decision could ___ (improve) things a lot. (mets le verbe à la bonne forme)`, acceptableAnswers:['improve'], explain:`Après un modal, le verbe reste à sa forme de base : "could improve", pas "could improving" ni "could be improve".`},
+  {id:'sq49', type:'cloze', cat:'tenses', word:{term:'present perfect', translation:'expérience passée', example:'I have never been to Japan.'}, prompt:`I ___ ___ (never / be) to Japan. (present perfect, 2 mots après "I")`, acceptableAnswers:['have never been','never have been'], explain:`"never" + present perfect pour une expérience de vie.`},
+  {id:'sq50', type:'cloze', cat:'irregular', word:{term:'break → broke → broken', translation:'casser (participe passé)', example:'He has broken his phone.'}, prompt:`He has ___ (break) his phone again. (mets le verbe au participe passé)`, acceptableAnswers:['broken'], explain:`Participe passé de "break" = "broken", pas "broke" (qui est le passé simple).`},
+  {id:'sq51', type:'cloze', cat:'falsefriends', word:{term:'currently', translation:'actuellement', example:'I am currently learning English.'}, prompt:`I am ___ learning English. (traduis "actuellement")`, acceptableAnswers:['currently'], explain:`"currently" = actuellement. "Actually" veut dire "en fait", c'est un faux-ami.`}
+];
+
+/* ---------- Static fallback: reading / listening / writing ---------- */
+const staticReadings = [
+  {passage:"Maria decided to learn how to cook last year. At first, she could barely boil an egg, but she watched videos online and practiced every weekend. Now she can prepare full meals for her friends. Her family is surprised by how much she has improved, and she says cooking has become her favorite way to relax after a stressful week at work.", questions:["Pourquoi Maria a-t-elle commencé à cuisiner ?","Qu'est-ce qui a aidé Maria à progresser ?","Que représente la cuisine pour Maria aujourd'hui ?"]},
+  {passage:"Tom is planning a trip to Scotland next spring. He wants to visit Edinburgh first, then drive through the Highlands to see the lakes and mountains. He has never traveled alone before, so he is a little nervous, but also excited to discover new places at his own pace. He has already booked his flights and started learning a few words of Gaelic.", questions:["Quel est l'itinéraire prévu par Tom ?","Pourquoi Tom est-il un peu nerveux pour ce voyage ?","Qu'a-t-il déjà commencé à faire pour se préparer ?"]},
+  {passage:"Many people now use their phones for almost everything, from paying bills to reading the news. Some experts worry that this makes us less patient, since we expect instant answers to every question. Others argue that technology simply helps us spend more time on things that matter, instead of wasting it on repetitive tasks.", questions:["Pour quoi les gens utilisent-ils leur téléphone selon le texte ?","Quelle est l'inquiétude de certains experts ?","Quel est l'argument opposé donné dans le texte ?"]}
+];
+const staticListenings = [
+  {script:"Hi, could I get a medium latte, please? Sure, would you like that hot or iced? Hot, please. And do you want any syrup, we have vanilla or caramel. Just vanilla, thanks. That'll be four dollars fifty. Here you go. Your name for the order? It's Alex. Great, it'll be ready in a few minutes.", questions:["Qu'est-ce que le client commande ?","Quel sirop choisit-il ?","Combien paie-t-il ?"]},
+  {script:"Excuse me, do you know how to get to the train station from here? Sure, go straight for two blocks, then turn left at the pharmacy. You'll see it right in front of you. Is it far? Not really, about ten minutes on foot. Thank you so much. You're welcome, have a safe trip!", questions:["Que cherche la personne ?","Où doit-elle tourner ?","Combien de temps faut-il pour y arriver à pied ?"]},
+  {script:"So, what are you doing this weekend? I'm not sure yet, maybe hiking if the weather is nice. That sounds great, can I join you? Of course! Let's meet Saturday morning around nine. Perfect, should I bring anything? Just some water and comfortable shoes, I'll take care of the rest.", questions:["Que prévoit de faire la première personne ce week-end ?","À quelle heure se retrouvent-ils ?","Que doit apporter la deuxième personne ?"]}
+];
+const staticWritingPrompts = [
+  {instructions:"Écris un court texte (80-100 mots) sur tes projets pour l'année prochaine.", requiredWords:["plan","looking forward","achieve"]},
+  {instructions:"Décris ta ville idéale pour vivre (80-100 mots).", requiredWords:["environment","community","afford"]},
+  {instructions:"Donne ton avis sur les réseaux sociaux : utiles ou nuisibles ? (80-100 mots)", requiredWords:["connect","however","opinion"]},
+  {instructions:"Raconte un souvenir de voyage marquant (80-100 mots).", requiredWords:["remember","experience","although"]},
+  {instructions:"Explique comment tu gères ton temps libre (80-100 mots).", requiredWords:["usually","balance","enjoy"]},
+  {instructions:"Décris un changement que tu aimerais voir dans ton travail ou tes études (80-100 mots).", requiredWords:["change","hope","improve"]}
+];
+
+function shuffle(arr){
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+/* ---------- CEFR skill levels ---------- */
+const CEFR_SCALE = ['A1-','A1','A1+','A2-','A2','A2+','B1-','B1','B1+','B2-','B2','B2+','C1-','C1','C1+'];
+const SKILL_NAMES = {grammar:'Grammaire & vocabulaire', reading:'Compréhension écrite', writing:'Expression écrite', listening:'Compréhension orale'};
+function cefrLabel(idx){ return CEFR_SCALE[Math.max(0, Math.min(CEFR_SCALE.length-1, idx))]; }
+function adjustLevel(skillKey, scorePercent){
+  const cur = state.skillLevels[skillKey];
+  let next = cur;
+  if (scorePercent >= 80) next = Math.min(CEFR_SCALE.length-1, cur+1);
+  else if (scorePercent < 40) next = Math.max(0, cur-1);
+  state.skillLevels[skillKey] = next;
+  return { before: cur, after: next, direction: next > cur ? 'up' : (next < cur ? 'down' : 'same') };
+}
+function levelNoteHTML(skillKey, adjustment){
+  const dir = adjustment.direction;
+  const cls = dir === 'up' ? '' : (dir === 'down' ? 'down' : 'same');
+  const msg = dir === 'up'
+    ? `Niveau ${SKILL_NAMES[skillKey]} : ${cefrLabel(adjustment.before)} → <b>${cefrLabel(adjustment.after)}</b> — bien joué, la difficulté monte un peu.`
+    : dir === 'down'
+    ? `Niveau ${SKILL_NAMES[skillKey]} : ${cefrLabel(adjustment.before)} → <b>${cefrLabel(adjustment.after)}</b> — on redescend d'un cran, pas de souci.`
+    : `Niveau ${SKILL_NAMES[skillKey]} : reste à <b>${cefrLabel(adjustment.after)}</b>.`;
+  return `<div class="level-note ${cls}">${msg}</div>`;
+}
+
+/* ---------- Persisted state ---------- */
+function defaultState(){
+  return {
+    unknownWords: [],
+    categoryProgress: {},
+    masteredQuestionIds: [],
+    masteredTerms: [],
+    readingUsed: [],
+    listeningUsed: [],
+    writingUsed: [],
+    skillLevels: { grammar: 7, reading: 7, writing: 7, listening: 7 },
+    voicePref: null,
+    _meta: { savedAt: null }
+  };
+}
+let state = defaultState();
+function ensureCategoryProgress(){
+  CATEGORY_KEYS.forEach(c => {
+    if (!state.categoryProgress[c]) state.categoryProgress[c] = {correctStreak:0, wrongRecent:0, mastered:false, needsReview:false};
+  });
+  if (!state.skillLevels) state.skillLevels = defaultState().skillLevels;
+}
+function recordCategoryResult(cat, isCorrect){
+  if (!CATEGORY_KEYS.includes(cat)) return;
+  const cp = state.categoryProgress[cat];
+  if (isCorrect){
+    cp.correctStreak++;
+    cp.wrongRecent = 0;
+    if (cp.correctStreak >= MASTER_STREAK){ cp.mastered = true; cp.needsReview = false; }
+  } else {
+    cp.wrongRecent++;
+    cp.correctStreak = 0;
+    cp.mastered = false;
+    if (cp.wrongRecent >= REVIEW_THRESHOLD){ cp.needsReview = true; }
+  }
+}
+async function persist(){
+  state._meta = { savedAt: new Date().toISOString() };
+  await storeSet('coach_state_v1', state);
+}
+
+/* ---------- Sauvegarde (export / import / restore / erase) ---------- */
+const BACKUP_VERSION = 1;
+function wrapBackup(data){ return { version: BACKUP_VERSION, createdAt: new Date().toISOString(), data }; }
+function validBackupShape(obj){ return !!(obj && typeof obj.version === 'number' && obj.data && typeof obj.data === 'object'); }
+async function snapshotPreviousBackup(){
+  await storeSet('coach_backup_prev', wrapBackup(state));
+}
+function flashButton(btn, text, revertAfter){
+  const original = btn.textContent;
+  btn.textContent = text;
+  setTimeout(() => { btn.textContent = original; }, revertAfter || 1800);
+}
+function downloadJSON(obj, filename){
+  const blob = new Blob([JSON.stringify(obj, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+async function applyImportedState(loaded, btn){
+  await snapshotPreviousBackup();
+  state = { ...defaultState(), ...loaded };
+  ensureCategoryProgress();
+  await persist();
+  refreshHeroStats();
+  if (activeTab === 'save') renderSauvegardeTab();
+  flashButton(btn, '✓ Chargé');
+}
+document.getElementById('importFile').addEventListener('change', (e) => {
+  const file = e.target.files[0];
+  const btn = document.getElementById('btnImport');
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = async (evt) => {
+    let parsed;
+    try{ parsed = JSON.parse(evt.target.result); }
+    catch(err){ flashButton(btn, 'Fichier invalide — rien n\'a été modifié', 2600); e.target.value=''; return; }
+    if (!validBackupShape(parsed)){ flashButton(btn, 'Format non reconnu — rien n\'a été modifié', 2600); e.target.value=''; return; }
+    const ok = confirm('Ceci va remplacer tes données actuelles (cours, vocabulaire, niveaux) par celles de ce fichier, daté du ' + new Date(parsed.createdAt).toLocaleString('fr-FR') + '.\n\nTon état actuel sera gardé en secours et récupérable via "Restaurer la dernière sauvegarde locale".\n\nContinuer ?');
+    if (!ok){ e.target.value=''; return; }
+    await applyImportedState(parsed.data, btn);
+    e.target.value = '';
+  };
+  reader.readAsText(file);
+});
+
+function renderSauvegardeTab(){
+  const card = document.getElementById('card');
+  const savedAt = state._meta && state._meta.savedAt ? new Date(state._meta.savedAt).toLocaleString('fr-FR') : 'jamais encore';
+  card.innerHTML = `
+    <h2>Sauvegarde</h2>
+    <div class="sub">Tout est enregistré automatiquement sur cet iPad (dans le navigateur), sans passer par une conversation Claude. Dernière sauvegarde automatique : <b>${savedAt}</b>.</div>
+    <div class="lesson-list">
+      <button class="lesson-btn" id="btnExport"><span>💾 Exporter une sauvegarde</span></button>
+      <button class="lesson-btn" id="btnImport"><span>📂 Importer une sauvegarde</span></button>
+      <button class="lesson-btn" id="btnRestore"><span>🔄 Restaurer la dernière sauvegarde locale</span></button>
+      <button class="lesson-btn" id="btnErase" style="color:var(--error);border-color:rgba(179,58,58,0.35);"><span>🗑️ Effacer toutes les données</span></button>
+    </div>
+    <div class="sub" style="margin-top:16px;margin-bottom:0;">
+      "Exporter" télécharge un fichier .json que tu peux garder où tu veux (Fichiers, iCloud...). "Restaurer" récupère automatiquement l'état d'avant ta dernière importation ou suppression — une sécurité en un clic si tu te trompes.
+    </div>
+  `;
+  document.getElementById('btnExport').onclick = () => {
+    downloadJSON(wrapBackup(state), 'sauvegarde-coach-anglais.json');
+    flashButton(document.getElementById('btnExport'), '✓ Téléchargé');
+  };
+  document.getElementById('btnImport').onclick = () => document.getElementById('importFile').click();
+  document.getElementById('btnRestore').onclick = async () => {
+    const btn = document.getElementById('btnRestore');
+    const prev = await storeGet('coach_backup_prev');
+    if (!validBackupShape(prev)){ flashButton(btn, 'Aucune sauvegarde locale précédente'); return; }
+    const ok = confirm('Ceci va remplacer ton état actuel par ta sauvegarde locale précédente, datée du ' + new Date(prev.createdAt).toLocaleString('fr-FR') + '.\n\nContinuer ?');
+    if (!ok) return;
+    state = { ...defaultState(), ...prev.data };
+    ensureCategoryProgress();
+    await persist();
+    refreshHeroStats();
+    renderSauvegardeTab();
+    flashButton(btn, '✓ Restauré');
+  };
+  document.getElementById('btnErase').onclick = async () => {
+    const btn = document.getElementById('btnErase');
+    const ok = confirm('Ceci va effacer toutes tes données (progression, vocabulaire, niveaux). Un exemplaire de ton état actuel sera gardé et récupérable via "Restaurer la dernière sauvegarde locale" juste après.\n\nVraiment tout effacer ?');
+    if (!ok) return;
+    await snapshotPreviousBackup();
+    state = defaultState();
+    ensureCategoryProgress();
+    await persist();
+    refreshHeroStats();
+    renderSauvegardeTab();
+    flashButton(btn, '✓ Effacé');
+  };
+}
+
+async function callClaudeJSON(promptText){
+  const response = await fetch("https://api.anthropic.com/v1/messages", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ model: "claude-sonnet-4-6", max_tokens: 1000, messages: [{ role: "user", content: promptText }] })
+  });
+  if (!response.ok) throw new Error("API error " + response.status);
+  const data = await response.json();
+  const text = data.content.map(b => b.type === 'text' ? b.text : '').join('');
+  const clean = text.replace(/```json|```/g, '').trim();
+  return JSON.parse(clean);
+}
+
+/* ---------- App shell ---------- */
+let activeTab = 'cours';
+let showMasteredCours = false;
+let showMasteredVocab = false;
+
+function renderTabsBar(){
+  document.querySelectorAll('.maintab').forEach(btn => btn.classList.toggle('active', btn.dataset.tab === activeTab));
+}
+document.querySelectorAll('.maintab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    activeTab = btn.dataset.tab;
+    renderTabsBar();
+    if (activeTab === 'cours') renderCoursList();
+    if (activeTab === 'exercices') renderExerciceHome();
+    if (activeTab === 'vocab') renderVocabTab();
+    if (activeTab === 'save') renderSauvegardeTab();
+  });
+});
+
+function refreshHeroStats(){
+  const masteredCount = CATEGORY_KEYS.filter(c => state.categoryProgress[c] && state.categoryProgress[c].mastered).length;
+  document.getElementById('heroMastered').textContent = `${masteredCount}/${CATEGORY_KEYS.length} thèmes maîtrisés`;
+  document.getElementById('heroReview').textContent = `${state.unknownWords.length} mot${state.unknownWords.length===1?'':'s'} à revoir`;
+}
+
+/* ---------- COURS ---------- */
+function renderCoursList(){
+  const priorityCats = CATEGORY_KEYS.filter(c => state.categoryProgress[c].needsReview);
+  const masteredCats = CATEGORY_KEYS.filter(c => state.categoryProgress[c].mastered);
+  const priorityLessons = lessons.filter(l => priorityCats.includes(l.id));
+  const normalLessons = lessons.filter(l => !priorityCats.includes(l.id) && !masteredCats.includes(l.id));
+  const masteredLessons = lessons.filter(l => masteredCats.includes(l.id));
+
+  const card = document.getElementById('card');
+  card.innerHTML = `
+    <h2>Cours</h2>
+    <div class="sub">Les fiches s'adaptent à tes résultats : un thème où tu te trompes souvent remonte en priorité, un thème maîtrisé disparaît de la liste.</div>
+    ${priorityLessons.length > 0 ? '<div class="priority-badge">À revoir en priorité</div>' : ''}
+    <div class="lesson-list" id="lessonList"></div>
+    ${masteredLessons.length > 0 ? `<button class="mastered-toggle" id="toggleMasteredCours">${showMasteredCours ? 'Masquer' : 'Afficher aussi'} les leçons maîtrisées (${masteredLessons.length})</button>` : ''}
+  `;
+  const list = document.getElementById('lessonList');
+  function addLessonBtn(l, isPriority, isMastered){
+    const b = document.createElement('button');
+    b.className = 'lesson-btn';
+    b.innerHTML = `<span style="display:flex;align-items:center;gap:8px;"><span class="cat-dot" style="background:${catColors[l.id]}"></span>${l.title}</span>${isMastered ? '<span class="mastered-tag">Maîtrisé</span>' : ''}`;
+    b.onclick = () => renderLessonDetail(l.id);
+    list.appendChild(b);
+  }
+  priorityLessons.forEach(l => addLessonBtn(l, true, false));
+  normalLessons.forEach(l => addLessonBtn(l, false, false));
+  if (showMasteredCours){ masteredLessons.forEach(l => addLessonBtn(l, false, true)); }
+
+  if (masteredLessons.length > 0){
+    document.getElementById('toggleMasteredCours').onclick = () => { showMasteredCours = !showMasteredCours; renderCoursList(); };
+  }
+}
+function renderLessonDetail(id){
+  const l = lessons.find(x => x.id === id);
+  const card = document.getElementById('card');
+  card.innerHTML = `
+    <button class="back-btn" id="backToCours">← Retour aux cours</button>
+    <h2>${l.title}</h2>
+    <div class="lesson-body">${l.body}</div>
+  `;
+  document.getElementById('backToCours').onclick = renderCoursList;
+}
+
+/* ---------- EXERCICES: mode home ---------- */
+function renderExerciceHome(){
+  const card = document.getElementById('card');
+  const levelRows = Object.keys(SKILL_NAMES).map(k => `
+    <div class="level-row"><span>${SKILL_NAMES[k]}</span><span class="level-badge">${cefrLabel(state.skillLevels[k])}</span></div>
+  `).join('');
+  card.innerHTML = `
+    <h2>Exercices</h2>
+    <div class="sub">Choisis un type d'exercice. Chaque session est générée spécialement pour toi, et une fois réussie tu ne la revois pas.</div>
+    <div class="level-panel">
+      <div class="lp-title">Ton niveau actuel, par compétence</div>
+      ${levelRows}
+    </div>
+    <div id="modeList"></div>
+  `;
+  const modes = [
+    {id:'qcm', title:'QCM & textes à trous', desc:'Grammaire et vocabulaire, thèmes mélangés, difficulté ajustée à ton niveau.', icon:ICONS.target, color:'var(--raspberry)', tint:'rgba(224,87,122,0.14)'},
+    {id:'reading', title:'Compréhension écrite', desc:"Un texte en anglais, des questions auxquelles tu réponds au clavier.", icon:ICONS.book, color:'var(--gold)', tint:'rgba(201,152,47,0.16)'},
+    {id:'writing', title:'Expression écrite', desc:'Une consigne, des mots imposés, tu rédiges directement ici.', icon:ICONS.pencil, color:'var(--teal)', tint:'rgba(62,124,137,0.16)'},
+    {id:'listening', title:'Compréhension orale', desc:"Un audio généré (synthèse vocale), des questions à l'écrit.", icon:ICONS.headphones, color:'var(--violet)', tint:'rgba(122,79,181,0.14)'}
+  ];
+  const list = document.getElementById('modeList');
+  modes.forEach(m => {
+    const row = document.createElement('button');
+    row.className = 'mode-row';
+    row.innerHTML = `
+      <div class="mode-icon" style="background:${m.tint};color:${m.color};">${m.icon}</div>
+      <div class="mode-info"><h3>${m.title}</h3><p>${m.desc}</p></div>
+    `;
+    row.onclick = () => {
+      if (m.id === 'qcm') renderExerciceStart();
+      if (m.id === 'reading') renderReadingStart();
+      if (m.id === 'writing') renderWritingStart();
+      if (m.id === 'listening') renderListeningStart();
+    };
+    list.appendChild(row);
+  });
+}
+
+/* ---------- QCM ---------- */
+function renderExerciceStart(){
+  const card = document.getElementById('card');
+  card.innerHTML = `
+    <button class="back-btn" id="backHome">← Retour aux types d'exercices</button>
+    <h2>QCM ciblés</h2>
+    <div class="sub">Nouveau lot à chaque tentative. Les questions déjà réussies ne reviennent pas, et les thèmes où tu bloques sont priorisés.</div>
+    <div class="start-box"><button class="start-btn" id="startQuiz">Commencer</button></div>
+  `;
+  document.getElementById('backHome').onclick = renderExerciceHome;
+  document.getElementById('startQuiz').onclick = startQuiz;
+}
+function renderLoading(msg){
+  const card = document.getElementById('card');
+  card.innerHTML = `<div class="loading-box"><div class="lt">${msg}</div><div class="loading-dots"><span>.</span><span>.</span><span>.</span></div></div>`;
+}
+
+let quiz = null;
+async function generateAIQuestions(n){
+  const priorityCats = CATEGORY_KEYS.filter(c => state.categoryProgress[c].needsReview);
+  const avoidTerms = state.masteredTerms.slice(-15);
+  const level = cefrLabel(state.skillLevels.grammar);
+  const instruction = `Tu es un générateur d'exercices d'anglais pour un(e) apprenant(e) francophone. Calibre précisément la difficulté (vocabulaire, complexité grammaticale, longueur des phrases) pour un niveau CECRL ${level} (plus simple pour A1/A2, plus subtil pour B2/C1).
+Crée exactement ${n} questions variées, en mélangeant deux formats à peu près à parts égales :
+- "type":"mcq" (QCM) avec "options" (3 ou 4 courtes) et "answerIndex" (index de la bonne réponse)
+- "type":"cloze" (texte à trous, réponse tapée au clavier) avec "acceptableAnswers" (1 à 3 réponses acceptées, formes courtes)
+Catégorie pour chaque question, choisis UNE valeur exacte parmi : "tenses","modals","irregular","phrasal","falsefriends","articles","agreement". Varie les catégories.
+${priorityCats.length > 0 ? `Priorise si possible ces catégories que l'apprenant maîtrise moins bien : ${priorityCats.join(', ')}.` : ''}
+${avoidTerms.length > 0 ? `Évite de retester ces éléments déjà maîtrisés : ${avoidTerms.join(', ')}.` : ''}
+Utilise des thèmes quotidiens variés (voyage, environnement, technologie, santé, loisirs, vie professionnelle), différents à chaque question.
+Chaque question a une explication en français d'au maximum 20 mots.
+Réponds UNIQUEMENT avec un tableau JSON valide, sans texte autour, sans markdown, exactement dans ce format :
+[{"type":"mcq","category":"tenses","prompt":"phrase avec ___ pour le trou","options":["...","...","...","..."],"answerIndex":0,"explain":"explication courte en français","focusTerm":"mot ou structure testée","focusTranslation":"traduction très courte"},{"type":"cloze","category":"phrasal","prompt":"phrase avec ___ pour le trou","acceptableAnswers":["give up"],"explain":"explication courte","focusTerm":"give up","focusTranslation":"traduction courte"}]`;
+  const parsed = await callClaudeJSON(instruction);
+  if (!Array.isArray(parsed) || parsed.length === 0) throw new Error("bad shape");
+  const mapped = parsed.filter(q => {
+    if (!q || !q.prompt) return false;
+    if (q.type === 'cloze') return Array.isArray(q.acceptableAnswers) && q.acceptableAnswers.length > 0;
+    return Array.isArray(q.options) && q.options.length >= 2 && typeof q.answerIndex === 'number' && q.answerIndex >= 0 && q.answerIndex < q.options.length;
+  }).map(q => {
+    const base = { type: q.type === 'cloze' ? 'cloze' : 'mcq', cat: catNames[q.category] ? q.category : 'mixed', prompt: q.prompt, explain: q.explain || '', word: { term: q.focusTerm || '', translation: q.focusTranslation || '', example: '' } };
+    return base.type === 'cloze' ? { ...base, acceptableAnswers: q.acceptableAnswers } : { ...base, options: q.options, answer: q.answerIndex };
+  });
+  if (mapped.length < Math.min(4, n)) throw new Error("too few valid questions");
+  return mapped;
+}
+async function startQuiz(){
+  renderLoading("Génération d'un nouveau lot d'exercices");
+  let pool;
+  try{
+    pool = await generateAIQuestions(6);
+  }catch(e){
+    let available = staticQuestions.filter(q => !state.masteredQuestionIds.includes(q.id));
+    if (available.length < 8) available = staticQuestions;
+    pool = shuffle(available).slice(0, 10);
+  }
+  pool = pool.map(q => {
+    if ((q.type || 'mcq') === 'mcq'){
+      const optIdx = shuffle(q.options.map((_, i) => i));
+      return { ...q, shuffledOptions: optIdx.map(i => q.options[i]), shuffledAnswer: optIdx.indexOf(q.answer) };
+    }
+    return q;
+  });
+  quiz = { pool, index: 0, catScores: {}, sessionFlagged: [] };
+  Object.keys(catNames).forEach(c => quiz.catScores[c] = { correct: 0, total: 0 });
+  renderQuestion();
+}
+function renderQuestion(){
+  if (quiz.index >= quiz.pool.length){ renderQuizEnd(); return; }
+  const q = quiz.pool[quiz.index];
+  const type = q.type || 'mcq';
+  const card = document.getElementById('card');
+  card.innerHTML = `
+    <div class="qcount">Question ${quiz.index+1}/${quiz.pool.length} — ${catNames[q.cat] || 'Général'}${type === 'cloze' ? ' · texte à trous' : ''}</div>
+    <div class="prompt">${q.prompt}</div>
+    ${type === 'mcq' ? '<div class="options" id="options"></div>' : `
+      <div class="cloze-row">
+        <input type="text" id="clozeInput" placeholder="Ta réponse..." autocomplete="off" autocapitalize="off">
+        <button id="clozeSubmit">Valider</button>
+      </div>
+    `}
+    <button class="unknown-btn" id="unknownBtn">Je ne connais pas ce mot / cette expression</button>
+    <div class="unknown-reveal" id="unknownReveal"></div>
+    <div class="feedback" id="feedback"></div>
+    <div class="actions">
+      <span class="score-pill">Score : ${totalCorrect()}/${totalAnswered()}</span>
+      <button class="next-btn" id="nextBtn">Suivant →</button>
+    </div>
+  `;
+  if (type === 'mcq'){
+    const optionsEl = document.getElementById('options');
+    q.shuffledOptions.forEach((opt, i) => {
+      const b = document.createElement('button');
+      b.className = 'opt';
+      b.textContent = opt;
+      b.onclick = () => selectAnswer(i);
+      optionsEl.appendChild(b);
+    });
+  } else {
+    document.getElementById('clozeSubmit').onclick = submitCloze;
+    document.getElementById('clozeInput').addEventListener('keydown', (e) => { if (e.key === 'Enter') submitCloze(); });
+  }
+  document.getElementById('unknownBtn').onclick = () => flagUnknown(q);
+}
+async function flagUnknown(q){
+  const v = getWord(q);
+  if (!v || !v.term) return;
+  const btn = document.getElementById('unknownBtn');
+  btn.classList.add('flagged');
+  btn.textContent = 'Ajouté à ton carnet de vocabulaire';
+  const reveal = document.getElementById('unknownReveal');
+  reveal.classList.add('show');
+  reveal.innerHTML = `<b>${v.term}</b> — ${v.translation}${v.example ? '<br><span style="opacity:0.75;">' + v.example + '</span>' : ''}`;
+  if (!quiz.sessionFlagged.find(x => x.term === v.term)) quiz.sessionFlagged.push(v);
+  // Commit + save immediately so a word is never lost even if the session isn't finished
+  if (!state.unknownWords.find(x => x.term === v.term)){
+    state.unknownWords.push(v);
+    await persist();
+    refreshHeroStats();
+  }
+}
+function finishAnswer(q, isCorrect){
+  const cat = catNames[q.cat] ? q.cat : 'mixed';
+  quiz.catScores[cat].total++;
+  if (isCorrect) quiz.catScores[cat].correct++;
+
+  recordCategoryResult(cat, isCorrect);
+  if (isCorrect){
+    if (q.id) { if (!state.masteredQuestionIds.includes(q.id)) state.masteredQuestionIds.push(q.id); }
+    const w = getWord(q);
+    if (w && w.term && !state.masteredTerms.includes(w.term)) state.masteredTerms.push(w.term);
+  }
+
+  const fb = document.getElementById('feedback');
+  fb.className = 'feedback show ' + (isCorrect ? 'ok' : 'ko');
+  fb.innerHTML = `<b>${isCorrect ? 'Correct' : 'À revoir'}</b>${q.explain}`;
+
+  const nextBtn = document.getElementById('nextBtn');
+  nextBtn.classList.add('show');
+  nextBtn.textContent = isCorrect ? 'Suivant →' : "J'ai compris, suivant →";
+  nextBtn.onclick = () => { quiz.index++; renderQuestion(); };
+
+  document.querySelector('.score-pill').textContent = `Score : ${totalCorrect()}/${totalAnswered()}`;
+}
+function selectAnswer(i){
+  const q = quiz.pool[quiz.index];
+  const opts = document.querySelectorAll('.opt');
+  opts.forEach((el, idx) => {
+    el.disabled = true;
+    if (idx === q.shuffledAnswer) el.classList.add('correct');
+    else if (idx === i) el.classList.add('incorrect');
+  });
+  finishAnswer(q, i === q.shuffledAnswer);
+}
+function normalizeClozeAnswer(s){
+  return s.toLowerCase().trim().replace(/[.,!?;:'"]/g, '').replace(/\s+/g, ' ');
+}
+function submitCloze(){
+  const q = quiz.pool[quiz.index];
+  const input = document.getElementById('clozeInput');
+  const userVal = normalizeClozeAnswer(input.value);
+  const isCorrect = q.acceptableAnswers.some(a => normalizeClozeAnswer(a) === userVal);
+  input.disabled = true;
+  document.getElementById('clozeSubmit').disabled = true;
+  input.style.borderColor = isCorrect ? 'var(--success)' : 'var(--error)';
+  finishAnswer(q, isCorrect);
+}
+function totalCorrect(){ return Object.values(quiz.catScores).reduce((s,v)=>s+v.correct,0); }
+function totalAnswered(){ return Object.values(quiz.catScores).reduce((s,v)=>s+v.total,0); }
+
+async function renderQuizEnd(){
+  quiz.sessionFlagged.forEach(v => { if (!state.unknownWords.find(x => x.term === v.term)) state.unknownWords.push(v); });
+  const scorePercent = Math.round(100 * totalCorrect() / totalAnswered());
+  const levelAdjustment = adjustLevel('grammar', scorePercent);
+  await persist();
+  refreshHeroStats();
+
+  const card = document.getElementById('card');
+  const cells = Object.keys(catNames).filter(c => quiz.catScores[c].total > 0).map(c => {
+    const s = quiz.catScores[c];
+    return `<div class="summary-cell"><div class="n">${s.correct}/${s.total}</div><div class="l">${catNames[c]}</div></div>`;
+  }).join('');
+
+  card.innerHTML = `
+    <div class="stamp"><div class="seal">${scorePercent}%</div></div>
+    <div class="summary-grid">${cells}</div>
+    ${levelNoteHTML('grammar', levelAdjustment)}
+    ${quiz.sessionFlagged.length > 0 ? `
+      <h2 style="margin-top:20px;">Avant de terminer : révise ces mots</h2>
+      <div class="sub">Appuie sur chacun pour voir la traduction, jusqu'à tous les avoir révisés.</div>
+      <div id="flashList"></div>
+      <button class="finish-btn" id="finishBtn" disabled>Terminer (révise d'abord tous les mots ci-dessus)</button>
+    ` : `<button class="finish-btn" id="finishBtn">Terminer</button>`}
+  `;
+  if (quiz.sessionFlagged.length > 0){
+    const flashList = document.getElementById('flashList');
+    let revealedCount = 0;
+    quiz.sessionFlagged.forEach(v => {
+      const div = document.createElement('div');
+      div.className = 'flash';
+      div.innerHTML = `<div class="term">${v.term}</div><div class="translation">${v.translation}${v.example ? '<br><span style="font-style:italic;">' + v.example + '</span>' : ''}</div>`;
+      div.onclick = () => {
+        if (!div.classList.contains('revealed')){
+          div.classList.add('revealed');
+          revealedCount++;
+          if (revealedCount === quiz.sessionFlagged.length){
+            document.getElementById('finishBtn').disabled = false;
+            document.getElementById('finishBtn').textContent = 'Terminer';
+          }
+        }
+      };
+      flashList.appendChild(div);
+    });
+  }
+  document.getElementById('finishBtn').onclick = () => { quiz = null; renderExerciceHome(); };
+}
+
+/* ---------- READING ---------- */
+function renderReadingStart(){
+  const card = document.getElementById('card');
+  card.innerHTML = `
+    <button class="back-btn" id="backHome">← Retour aux types d'exercices</button>
+    <h2>Compréhension écrite</h2>
+    <div class="sub">Un texte en anglais généré pour toi, puis des questions auxquelles tu réponds au clavier, en français ou en anglais.</div>
+    <div class="start-box"><button class="start-btn" id="startReading">Générer un texte</button></div>
+  `;
+  document.getElementById('backHome').onclick = renderExerciceHome;
+  document.getElementById('startReading').onclick = startReading;
+}
+let readingState = null;
+async function startReading(){
+  renderLoading('Génération de ton texte');
+  let data;
+  try{
+    const level = cefrLabel(state.skillLevels.reading);
+    const instruction = `Crée un exercice de compréhension écrite d'anglais pour un(e) apprenant(e) francophone. Calibre la longueur, le vocabulaire et la complexité des phrases pour un niveau CECRL ${level} précisément (plus simple pour A1/A2, plus riche pour B2/C1). Choisis un thème quotidien varié, différent à chaque fois (pas le télétravail). Réponds UNIQUEMENT en JSON, sans texte autour, format exact : {"passage":"texte anglais de 100 à 150 mots calibré pour ce niveau","questions":["question 1 en français sur le texte","question 2 en français","question 3 en français"]}`;
+    const parsed = await callClaudeJSON(instruction);
+    if (!parsed.passage || !Array.isArray(parsed.questions) || parsed.questions.length < 2) throw new Error("bad shape");
+    data = parsed;
+  }catch(e){
+    let idx = staticReadings.findIndex((r, i) => !state.readingUsed.includes(i));
+    if (idx === -1) idx = Math.floor(Math.random() * staticReadings.length);
+    data = { ...staticReadings[idx], fallbackIndex: idx };
+  }
+  readingState = data;
+  renderReadingExercise();
+}
+function renderReadingExercise(){
+  const card = document.getElementById('card');
+  card.innerHTML = `
+    <button class="back-btn" id="backHome">← Retour aux types d'exercices</button>
+    <h2>Compréhension écrite</h2>
+    <div class="passage-box">${readingState.passage}</div>
+    <div id="qaBlocks"></div>
+    <button class="submit-btn" id="submitReading">Corriger mes réponses</button>
+  `;
+  document.getElementById('backHome').onclick = renderExerciceHome;
+  const blocks = document.getElementById('qaBlocks');
+  readingState.questions.forEach((q, i) => {
+    const div = document.createElement('div');
+    div.className = 'qa-block';
+    div.innerHTML = `<label>${q}</label><textarea id="ans${i}" placeholder="Ta réponse, en français ou en anglais..."></textarea><div class="qa-feedback" id="fb${i}"></div>`;
+    blocks.appendChild(div);
+  });
+  document.getElementById('submitReading').onclick = submitReading;
+}
+async function submitReading(){
+  const answers = readingState.questions.map((q, i) => ({ question: q, answer: document.getElementById('ans'+i).value.trim() || '(pas de réponse)' }));
+  const btn = document.getElementById('submitReading');
+  btn.disabled = true;
+  btn.textContent = 'Correction en cours...';
+  let results;
+  try{
+    const instruction = `Voici un texte en anglais et les réponses d'un(e) apprenant(e) francophone à des questions de compréhension. Évalue chaque réponse (elle peut être en français ou en anglais, les deux sont acceptées).
+Texte : ${JSON.stringify(readingState.passage)}
+Réponses à évaluer : ${JSON.stringify(answers)}
+Réponds UNIQUEMENT avec un tableau JSON, sans texte autour, format exact : [{"correct":true,"feedback":"commentaire en français, maximum 20 mots"}] — un objet par réponse, même ordre.`;
+    results = await callClaudeJSON(instruction);
+    if (!Array.isArray(results)) throw new Error("bad shape");
+  }catch(e){
+    results = answers.map(() => ({ neutral: true, feedback: "Évaluation automatique indisponible pour le moment — relis le texte pour vérifier toi-même ta réponse." }));
+  }
+  let correctCount = 0;
+  const hasNeutral = results.some(r => r.neutral);
+  results.forEach((r, i) => {
+    const fb = document.getElementById('fb'+i);
+    fb.classList.add('show');
+    if (r.neutral){ fb.classList.add('neutral'); fb.textContent = r.feedback; }
+    else { fb.classList.add(r.correct ? 'ok' : 'ko'); fb.textContent = (r.correct ? '✓ ' : '△ ') + r.feedback; if (r.correct) correctCount++; }
+  });
+  if (readingState.fallbackIndex !== undefined && correctCount / results.length >= 0.6){
+    if (!state.readingUsed.includes(readingState.fallbackIndex)) state.readingUsed.push(readingState.fallbackIndex);
+  }
+  let levelHTML = '';
+  if (!hasNeutral){
+    const scorePercent = Math.round(100 * correctCount / results.length);
+    const adjustment = adjustLevel('reading', scorePercent);
+    levelHTML = levelNoteHTML('reading', adjustment);
+  }
+  await persist();
+  const levelDiv = document.createElement('div');
+  levelDiv.innerHTML = levelHTML;
+  document.getElementById('qaBlocks').after(levelDiv);
+  btn.style.display = 'none';
+  const doneBtn = document.createElement('button');
+  doneBtn.className = 'start-btn';
+  doneBtn.textContent = 'Nouveau texte';
+  doneBtn.style.marginTop = '10px';
+  doneBtn.onclick = renderReadingStart;
+  levelDiv.after(doneBtn);
+}
+
+/* ---------- LISTENING ---------- */
+/* ---------- Voice selection for listening (on-device voices, no paid API) ---------- */
+function loadVoices(){
+  return new Promise((resolve) => {
+    if (!('speechSynthesis' in window)) { resolve([]); return; }
+    let voices = window.speechSynthesis.getVoices();
+    if (voices && voices.length > 0){ resolve(voices); return; }
+    let resolved = false;
+    window.speechSynthesis.onvoiceschanged = () => {
+      if (resolved) return;
+      resolved = true;
+      resolve(window.speechSynthesis.getVoices());
+    };
+    setTimeout(() => { if (!resolved){ resolved = true; resolve(window.speechSynthesis.getVoices() || []); } }, 1200);
+  });
+}
+function englishVoices(voices){ return (voices || []).filter(v => v.lang && v.lang.toLowerCase().startsWith('en')); }
+function groupVoicesForSelect(voices){
+  const groups = { uk: [], us: [], other: [] };
+  voices.forEach(v => {
+    const lang = v.lang.toLowerCase();
+    if (lang === 'en-gb') groups.uk.push(v);
+    else if (lang === 'en-us') groups.us.push(v);
+    else groups.other.push(v);
+  });
+  return groups;
+}
+function renderVoicePicker(voices){
+  const zone = document.getElementById('voicePickerZone');
+  if (!zone) return;
+  if (voices.length === 0){
+    zone.innerHTML = `<p class="sub">Aucune voix anglaise détectée sur cet appareil — la lecture utilisera la voix par défaut du système.</p>`;
+    return;
+  }
+  const groups = groupVoicesForSelect(voices);
+  const optHTML = (label, list) => list.length ? `<optgroup label="${label}">${list.map(v => `<option value="${v.name}">${v.name}</option>`).join('')}</optgroup>` : '';
+  zone.innerHTML = `
+    <div class="qa-block">
+      <label>Voix pour les audios</label>
+      <div class="cloze-row">
+        <select id="voiceSelect">${optHTML('🇬🇧 Anglais britannique', groups.uk)}${optHTML('🇺🇸 Anglais américain', groups.us)}${optHTML('🌐 Autres voix anglaises', groups.other)}</select>
+        <button id="previewVoice" type="button">🔊 Tester</button>
+      </div>
+    </div>
+  `;
+  const select = document.getElementById('voiceSelect');
+  select.style.cssText = "flex:1;border:1.5px solid rgba(46,27,61,0.2);border-radius:var(--r-sm);padding:10px 12px;font-family:'Manrope',sans-serif;font-size:0.92rem;";
+  if (state.voicePref && voices.some(v => v.name === state.voicePref)) select.value = state.voicePref;
+  else { state.voicePref = select.value; persist(); }
+  select.addEventListener('change', async () => { state.voicePref = select.value; await persist(); });
+  document.getElementById('previewVoice').onclick = () => {
+    try{
+      window.speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance('Hello! This is what this voice sounds like.');
+      const chosen = voices.find(v => v.name === select.value);
+      if (chosen) u.voice = chosen;
+      u.rate = 0.95;
+      window.speechSynthesis.speak(u);
+    }catch(e){}
+  };
+}
+async function renderListeningStart(){
+  const card = document.getElementById('card');
+  card.innerHTML = `
+    <button class="back-btn" id="backHome">← Retour aux types d'exercices</button>
+    <h2>Compréhension orale</h2>
+    <div class="sub">Un dialogue généré et lu à voix haute par synthèse vocale, puis des questions à l'écrit. Difficulté ajustée à ton niveau actuel.</div>
+    <div id="voicePickerZone"><p class="sub">Chargement des voix disponibles sur cet appareil...</p></div>
+    <div class="start-box"><button class="start-btn" id="startListening">Générer un audio</button></div>
+  `;
+  document.getElementById('backHome').onclick = renderExerciceHome;
+  document.getElementById('startListening').onclick = startListening;
+  const voices = englishVoices(await loadVoices());
+  renderVoicePicker(voices);
+}
+let listeningState = null;
+async function startListening(){
+  renderLoading('Génération de ton audio');
+  let data;
+  try{
+    const level = cefrLabel(state.skillLevels.listening);
+    const instruction = `Crée un script pour un exercice de compréhension orale d'anglais, pour un(e) apprenant(e) francophone. Calibre le vocabulaire, la vitesse implicite (longueur des phrases) et la complexité pour un niveau CECRL ${level} précisément. Choisis un dialogue ou monologue naturel de 80 à 120 mots sur un thème quotidien varié, différent à chaque fois. Réponds UNIQUEMENT en JSON, sans texte autour, format exact : {"script":"texte anglais naturel, phrases courtes adaptées à l'oral, calibré pour ce niveau","questions":["question 1 en français","question 2 en français","question 3 en français"]}`;
+    const parsed = await callClaudeJSON(instruction);
+    if (!parsed.script || !Array.isArray(parsed.questions) || parsed.questions.length < 2) throw new Error("bad shape");
+    data = parsed;
+  }catch(e){
+    let idx = staticListenings.findIndex((r, i) => !state.listeningUsed.includes(i));
+    if (idx === -1) idx = Math.floor(Math.random() * staticListenings.length);
+    data = { ...staticListenings[idx], fallbackIndex: idx };
+  }
+  listeningState = data;
+  listeningState.playsLeft = 3;
+  renderListeningExercise();
+}
+function speakScript(){
+  const btn = document.getElementById('listenBtn');
+  try{
+    if (!window.speechSynthesis) throw new Error('no tts');
+    window.speechSynthesis.cancel();
+    const utter = new SpeechSynthesisUtterance(listeningState.script);
+    const voices = englishVoices(window.speechSynthesis.getVoices());
+    const chosen = voices.find(v => v.name === state.voicePref);
+    if (chosen){ utter.voice = chosen; utter.lang = chosen.lang; }
+    else { utter.lang = 'en-US'; }
+    utter.rate = 0.92;
+    window.speechSynthesis.speak(utter);
+    listeningState.playsLeft--;
+    updateListenCount();
+  }catch(e){
+    document.getElementById('listenFallback').style.display = 'block';
+  }
+}
+function updateListenCount(){
+  const el = document.getElementById('listenCount');
+  el.textContent = `Écoutes restantes : ${listeningState.playsLeft}`;
+  if (listeningState.playsLeft <= 0) document.getElementById('listenBtn').disabled = true;
+}
+function renderListeningExercise(){
+  const card = document.getElementById('card');
+  card.innerHTML = `
+    <button class="back-btn" id="backHome">← Retour aux types d'exercices</button>
+    <h2>Compréhension orale</h2>
+    <button class="listen-btn" id="listenBtn">${ICONS.speaker}<span>Écouter</span></button>
+    <span class="listen-count" id="listenCount">Écoutes restantes : 3</span>
+    <div class="passage-box" id="listenFallback" style="display:none;">La synthèse vocale n'est pas disponible sur cet appareil. Voici le texte à lire toi-même une seule fois pour t'entraîner quand même : <br><br>${listeningState.script}</div>
+    <div id="qaBlocks"></div>
+    <button class="submit-btn" id="submitListening">Corriger mes réponses</button>
+  `;
+  document.getElementById('backHome').onclick = renderExerciceHome;
+  document.getElementById('listenBtn').onclick = speakScript;
+  const blocks = document.getElementById('qaBlocks');
+  listeningState.questions.forEach((q, i) => {
+    const div = document.createElement('div');
+    div.className = 'qa-block';
+    div.innerHTML = `<label>${q}</label><textarea id="ans${i}" placeholder="Ta réponse, en français ou en anglais..."></textarea><div class="qa-feedback" id="fb${i}"></div>`;
+    blocks.appendChild(div);
+  });
+  document.getElementById('submitListening').onclick = submitListening;
+}
+async function submitListening(){
+  const answers = listeningState.questions.map((q, i) => ({ question: q, answer: document.getElementById('ans'+i).value.trim() || '(pas de réponse)' }));
+  const btn = document.getElementById('submitListening');
+  btn.disabled = true;
+  btn.textContent = 'Correction en cours...';
+  let results;
+  try{
+    const instruction = `Voici le script audio d'un exercice d'anglais et les réponses d'un(e) apprenant(e) francophone à des questions de compréhension orale. Évalue chaque réponse (français ou anglais acceptés).
+Script : ${JSON.stringify(listeningState.script)}
+Réponses à évaluer : ${JSON.stringify(answers)}
+Réponds UNIQUEMENT avec un tableau JSON, sans texte autour, format exact : [{"correct":true,"feedback":"commentaire en français, maximum 20 mots"}] — un objet par réponse, même ordre.`;
+    results = await callClaudeJSON(instruction);
+    if (!Array.isArray(results)) throw new Error("bad shape");
+  }catch(e){
+    results = answers.map(() => ({ neutral: true, feedback: "Évaluation automatique indisponible pour le moment — réécoute pour vérifier toi-même ta réponse." }));
+  }
+  let correctCount = 0;
+  const hasNeutral = results.some(r => r.neutral);
+  results.forEach((r, i) => {
+    const fb = document.getElementById('fb'+i);
+    fb.classList.add('show');
+    if (r.neutral){ fb.classList.add('neutral'); fb.textContent = r.feedback; }
+    else { fb.classList.add(r.correct ? 'ok' : 'ko'); fb.textContent = (r.correct ? '✓ ' : '△ ') + r.feedback; if (r.correct) correctCount++; }
+  });
+  if (listeningState.fallbackIndex !== undefined && correctCount / results.length >= 0.6){
+    if (!state.listeningUsed.includes(listeningState.fallbackIndex)) state.listeningUsed.push(listeningState.fallbackIndex);
+  }
+  let levelHTML = '';
+  if (!hasNeutral){
+    const scorePercent = Math.round(100 * correctCount / results.length);
+    const adjustment = adjustLevel('listening', scorePercent);
+    levelHTML = levelNoteHTML('listening', adjustment);
+  }
+  await persist();
+  const levelDiv = document.createElement('div');
+  levelDiv.innerHTML = levelHTML;
+  document.getElementById('qaBlocks').after(levelDiv);
+  btn.style.display = 'none';
+  const doneBtn = document.createElement('button');
+  doneBtn.className = 'start-btn';
+  doneBtn.textContent = 'Nouvel audio';
+  doneBtn.style.marginTop = '10px';
+  doneBtn.onclick = renderListeningStart;
+  levelDiv.after(doneBtn);
+}
+
+/* ---------- WRITING ---------- */
+function renderWritingStart(){
+  const card = document.getElementById('card');
+  card.innerHTML = `
+    <button class="back-btn" id="backHome">← Retour aux types d'exercices</button>
+    <h2>Expression écrite</h2>
+    <div class="sub">Une consigne générée pour toi, avec des mots à utiliser. Écris directement ici, la correction se fait automatiquement.</div>
+    <div class="start-box"><button class="start-btn" id="startWriting">Générer une consigne</button></div>
+  `;
+  document.getElementById('backHome').onclick = renderExerciceHome;
+  document.getElementById('startWriting').onclick = startWriting;
+}
+let writingState = null;
+async function startWriting(){
+  renderLoading('Génération de ta consigne');
+  let data;
+  try{
+    const level = cefrLabel(state.skillLevels.writing);
+    const instruction = `Crée une consigne d'expression écrite en anglais pour un(e) apprenant(e) francophone, sur un thème quotidien varié, différent à chaque fois. Calibre le sujet, la longueur attendue et le choix des mots requis pour un niveau CECRL ${level} précisément (mots simples et sujet concret pour A1/A2, sujet plus abstrait et mots plus riches pour B2/C1). Réponds UNIQUEMENT en JSON, sans texte autour, format exact : {"instructions":"consigne en français expliquant le sujet à traiter en anglais, avec une longueur adaptée au niveau","requiredWords":["word1","word2","word3"]}`;
+    const parsed = await callClaudeJSON(instruction);
+    if (!parsed.instructions || !Array.isArray(parsed.requiredWords) || parsed.requiredWords.length === 0) throw new Error("bad shape");
+    data = parsed;
+  }catch(e){
+    let idx = staticWritingPrompts.findIndex((r, i) => !state.writingUsed.includes(i));
+    if (idx === -1) idx = Math.floor(Math.random() * staticWritingPrompts.length);
+    data = { ...staticWritingPrompts[idx], fallbackIndex: idx };
+  }
+  writingState = data;
+  renderWritingExercise();
+}
+function renderWritingExercise(){
+  const card = document.getElementById('card');
+  card.innerHTML = `
+    <button class="back-btn" id="backHome">← Retour aux types d'exercices</button>
+    <h2>Expression écrite</h2>
+    <div class="sub">${writingState.instructions}</div>
+    <div class="req-words" id="reqWords"></div>
+    <textarea class="big" id="writingText" placeholder="Write your text here in English..."></textarea>
+    <div class="wordcount" id="wordCount">0 mot</div>
+    <button class="submit-btn" id="submitWriting">Faire corriger</button>
+    <div id="writingResult"></div>
+  `;
+  document.getElementById('backHome').onclick = renderExerciceHome;
+  const reqWords = document.getElementById('reqWords');
+  writingState.requiredWords.forEach(w => {
+    const chip = document.createElement('span');
+    chip.className = 'req-chip';
+    chip.textContent = w;
+    chip.dataset.word = w.toLowerCase();
+    reqWords.appendChild(chip);
+  });
+  const textarea = document.getElementById('writingText');
+  textarea.addEventListener('input', () => {
+    const words = textarea.value.trim().split(/\s+/).filter(Boolean);
+    document.getElementById('wordCount').textContent = `${words.length} mot${words.length===1?'':'s'}`;
+    document.querySelectorAll('.req-chip').forEach(chip => {
+      chip.classList.toggle('used', textarea.value.toLowerCase().includes(chip.dataset.word));
+    });
+  });
+  document.getElementById('submitWriting').onclick = submitWriting;
+}
+async function submitWriting(){
+  const userText = document.getElementById('writingText').value.trim();
+  if (!userText){ return; }
+  const btn = document.getElementById('submitWriting');
+  btn.disabled = true;
+  btn.textContent = 'Correction en cours...';
+  let result;
+  try{
+    const level = cefrLabel(state.skillLevels.writing);
+    const instruction = `Corrige ce texte en anglais écrit par un(e) apprenant(e) francophone dont le niveau visé est CECRL ${level}. Calibre tes attentes et corrections à ce niveau (sois plus tolérant sur la complexité pour A1/A2, plus exigeant sur la précision pour B2/C1).
+Consigne donnée : ${JSON.stringify(writingState.instructions)}
+Mots requis : ${JSON.stringify(writingState.requiredWords)}
+Texte de l'apprenant : ${JSON.stringify(userText)}
+Réponds UNIQUEMENT en JSON, sans texte autour, format exact : {"usedRequiredWords":["mots effectivement utilisés"],"overallFeedback":"commentaire général encourageant en français, maximum 30 mots","corrections":[{"original":"extrait fautif court","corrected":"version corrigée","explanation":"pourquoi, en français, maximum 15 mots"}],"score":75} Le champ "score" est une note de 0 à 100 estimant la qualité du texte pour le niveau ${level} (grammaire, richesse, respect des mots requis). Limite les corrections aux 4 points les plus importants.`;
+    result = await callClaudeJSON(instruction);
+    if (typeof result.score !== 'number') throw new Error("missing score");
+  }catch(e){
+    result = { error: true };
+  }
+  btn.style.display = 'none';
+  const resDiv = document.getElementById('writingResult');
+  if (result.error){
+    resDiv.innerHTML = `<div class="qa-feedback neutral show" style="margin-top:14px;">Correction automatique indisponible pour le moment. Garde ton texte, tu pourras le refaire corriger un peu plus tard.</div>`;
+  } else {
+    const corrections = (result.corrections || []).map(c => `
+      <div class="corr-card"><span class="orig">${c.original}</span><span class="fix">${c.corrected}</span><span class="why">${c.explanation}</span></div>
+    `).join('');
+    const adjustment = adjustLevel('writing', result.score);
+    resDiv.innerHTML = `
+      <div class="qa-feedback ok show" style="margin-top:14px;">${result.overallFeedback || ''}</div>
+      ${corrections || '<p class="sub" style="margin-top:10px;">Aucune erreur majeure relevée, bravo.</p>'}
+      ${levelNoteHTML('writing', adjustment)}
+    `;
+    if (writingState.fallbackIndex !== undefined){
+      if (!state.writingUsed.includes(writingState.fallbackIndex)) state.writingUsed.push(writingState.fallbackIndex);
+    }
+    await persist();
+  }
+  const doneBtn = document.createElement('button');
+  doneBtn.className = 'start-btn';
+  doneBtn.textContent = 'Nouvelle consigne';
+  doneBtn.style.marginTop = '14px';
+  doneBtn.onclick = renderWritingStart;
+  resDiv.after(doneBtn);
+}
+
+/* ---------- VOCABULAIRE ---------- */
+function renderVocabTab(){
+  const priorityCats = CATEGORY_KEYS.filter(c => state.categoryProgress[c].needsReview);
+  const masteredCats = CATEGORY_KEYS.filter(c => state.categoryProgress[c].mastered);
+  const irregularMastered = masteredCats.includes('irregular') && !showMasteredVocab;
+  const visibleVocab = vocabBank.filter(v => !masteredCats.includes(v.cat) || showMasteredVocab);
+  const sortedVocab = [...visibleVocab].sort((a,b) => (priorityCats.includes(b.cat)?1:0) - (priorityCats.includes(a.cat)?1:0));
+  const hiddenCount = vocabBank.length - visibleVocab.length;
+
+  const card = document.getElementById('card');
+  card.innerHTML = `
+    <h2>Vocabulaire</h2>
+    <div class="sub">Les mots signalés comme inconnus, la banque de référence et les verbes irréguliers essentiels — la banque s'ajuste selon tes résultats aux QCM.</div>
+    <div class="vocab-section-title">À revoir (${state.unknownWords.length})</div>
+    <div id="unknownList"></div>
+    <div class="vocab-section-title">Verbes irréguliers essentiels</div>
+    <div id="irregularBlock"></div>
+    <div class="vocab-section-title">Banque de référence (${sortedVocab.length}${hiddenCount>0 ? ` sur ${vocabBank.length}` : ''})</div>
+    <div id="fullList"></div>
+    ${hiddenCount > 0 || masteredCats.includes('irregular') ? `<button class="mastered-toggle" id="toggleMasteredVocab">${showMasteredVocab ? 'Masquer' : 'Afficher aussi'} les thèmes maîtrisés</button>` : ''}
+  `;
+  const unknownList = document.getElementById('unknownList');
+  if (state.unknownWords.length === 0){
+    unknownList.innerHTML = `<p class="empty-note">Rien pour l'instant — signale un mot pendant les QCM pour qu'il apparaisse ici.</p>`;
+  } else {
+    state.unknownWords.forEach(v => {
+      const div = document.createElement('div');
+      div.className = 'vcard';
+      div.innerHTML = `<div class="t">${v.term}</div><div class="tr">${v.translation}</div>${v.example ? `<div class="ex">${v.example}</div>` : ''}<button class="learned-btn">Je maîtrise ce mot, le retirer</button>`;
+      div.onclick = (e) => { if (e.target.tagName !== 'BUTTON') div.classList.toggle('open'); };
+      div.querySelector('.learned-btn').onclick = async (e) => {
+        e.stopPropagation();
+        state.unknownWords = state.unknownWords.filter(x => x.term !== v.term);
+        await persist();
+        refreshHeroStats();
+        renderVocabTab();
+      };
+      unknownList.appendChild(div);
+    });
+  }
+
+  const irregularBlock = document.getElementById('irregularBlock');
+  if (irregularMastered){
+    irregularBlock.innerHTML = `<p class="empty-note">Thème maîtrisé — masqué. Utilise le lien ci-dessous pour le réafficher.</p>`;
+  } else {
+    irregularBlock.innerHTML = `
+      ${priorityCats.includes('irregular') ? '<div class="priority-badge">À revoir en priorité</div>' : ''}
+      <table class="irr-table">
+        <tr><th>Base</th><th>Prétérit</th><th>Participe</th><th>Sens</th></tr>
+        ${irregularVerbs.map(v => `<tr class="${(v.base==='lie'||v.base==='lay'||v.base==='rise'||v.base==='raise') ? 'trap' : ''}"><td>${v.base}</td><td>${v.past}</td><td>${v.part}</td><td>${v.fr}</td></tr>`).join('')}
+      </table>
+    `;
+  }
+
+  const fullList = document.getElementById('fullList');
+  sortedVocab.forEach(v => {
+    const div = document.createElement('div');
+    div.className = 'vcard' + (priorityCats.includes(v.cat) ? ' priority' : '');
+    div.innerHTML = `<div class="t">${v.term}</div><div class="tr">${v.translation}</div><div class="ex">${v.example}</div>`;
+    div.onclick = () => div.classList.toggle('open');
+    fullList.appendChild(div);
+  });
+
+  if (hiddenCount > 0 || masteredCats.includes('irregular')){
+    document.getElementById('toggleMasteredVocab').onclick = () => { showMasteredVocab = !showMasteredVocab; renderVocabTab(); };
+  }
+}
+
+/* ---------- Init ---------- */
+async function init(){
+  const saved = await storeGet('coach_state_v1');
+  if (saved){
+    state = { ...defaultState(), ...saved };
+  }
+  ensureCategoryProgress();
+  refreshHeroStats();
+  renderCoursList();
+}
+init();
+
+/* No service worker in this single-file edition — deliberately: iOS Safari's
+   Add to Home Screen / standalone display does not require one, and skipping
+   it keeps this whole app to exactly one file. See the chat explanation for
+   the trade-off (no formal offline network-cache — not needed here since
+   every asset is already inline). */
+</script>
+</body>
+</html>
